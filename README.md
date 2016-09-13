@@ -43,6 +43,12 @@ On AWS, availability zones could be used as redundancy zones. The following is a
 * [Running Cloud Foundry](http://github.com/cloudfoundry/docs-running-cf): Information for operators running Cloud Foundry
 * [Administrator Tools](https://github.com/cloudfoundry/docs-cf-admin): Documentation about operating Cloud Foundry deployments using BOSH and the cf command line tool
 
+### Dependencies
+The properties discussed below as well as their behavior might change in the future.
+
+1. [etcd](https://github.com/)
+1. [consul](https://github.com/)
+
 ### Direcory Structure
 
 1. Clone your fork of the content repository. Make sure to clone your fork of the topic repository to a directory that is a sibling to this book repository. So, for example, if you are contributing content to the Buildpack documentation, your folder structure would look like this:
