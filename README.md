@@ -5,7 +5,7 @@ Loggregator Handbook
 -   [Forkable](https://github.com/)
 -   [Continuously updated](https://github.com/)
 -   [Written in markdown](https://sculpin.io/)
--   
+
 ### Overview
 
 Loggregator is composed of:
