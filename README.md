@@ -1,10 +1,12 @@
 Loggregator Handbook
 ===========
 
--   Version-controlled
--   Forkable
--   Continuously updated
+-   [Version-controlled](#)
+-   [Forkable](#)
+-   [Continuously updated](https://github.com/)
 -   [Written in markdown](https://sculpin.io/)
+
+![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
 
 Loggregator is composed of:
 * **Sources**: Logging agents that run on the Cloud Foundry components.
@@ -14,13 +16,11 @@ Loggregator is composed of:
 
 Source agents emit the logging data as [protocol-buffers](https://github.com/google/protobuf), and the data stays in that format throughout the system.
 
-#### Runner VMs
-
-![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
-
-In a redundant CloudFoundry setup, Loggregator can be configured to survive zone failures. Log messages from non-affected zones will still make it to the end user.
-
-### Cloud Controller VMs
+1. [Runner VMs](#)
+1. [Cloud Controller VMs](#)
+2. Doppler
+3. Traffic Controller
+4. Nozzles
 
 On AWS, availability zones could be used as redundancy zones. The following is an example of a multi zone setup with two zones.
 
