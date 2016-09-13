@@ -16,11 +16,16 @@ In a redundant CloudFoundry setup, Loggregator can be configured to survive zone
 
 ### Runner VMS
 
+![Runner VMs](https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.08%20PM.png)
+
 #### StatsD Metrics
 - StatsD Injector
 - Metron Agent
 
 ### Cloud Controller VMs
+
+![CC VMs](https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.20%20PM.png)
+
 
 Cloud Controller
 UAA
