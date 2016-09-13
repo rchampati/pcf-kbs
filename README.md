@@ -5,6 +5,8 @@ Loggregator Handbook
 -   [Forkable](https://github.com/)
 -   [Continuously updated](https://github.com/)
 -   [Written in markdown](https://sculpin.io/)
+-   
+### Overview
 
 Loggregator is composed of:
 * **Sources**: Logging agents that run on the Cloud Foundry components.
