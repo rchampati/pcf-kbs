@@ -10,13 +10,13 @@ Loggregator is composed of:
 
 Source agents emit the logging data as [protocol-buffers](https://github.com/google/protobuf), and the data stays in that format throughout the system.
 
-![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png)
+![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
 
 In a redundant CloudFoundry setup, Loggregator can be configured to survive zone failures. Log messages from non-affected zones will still make it to the end user. On AWS, availability zones could be used as redundancy zones. The following is an example of a multi zone setup with two zones.
 
 ### Runner VMS
 
-![Runner VMs](https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.08%20PM.png)
+<img src="https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.08%20PM.png" width="200" />
 
 #### StatsD Metrics
 - StatsD Injector
@@ -24,8 +24,7 @@ In a redundant CloudFoundry setup, Loggregator can be configured to survive zone
 
 ### Cloud Controller VMs
 
-![CC VMs](https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.20%20PM.png)
-
+<img src="https://github.com/timani/pcf-loggregator/blob/structure/img/Screen%20Shot%202016-09-12%20at%209.55.20%20PM.png" width="200" />
 
 Cloud Controller
 UAA
