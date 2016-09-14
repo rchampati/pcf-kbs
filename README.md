@@ -1,10 +1,10 @@
 Loggregator Handbook
 ===========
 
--   [Version-controlled](https://github.com/)
--   [Forkable](https://github.com/)
--   [Continuously updated](https://github.com/)
--   [Written in markdown](https://sculpin.io/)
+-   [Guide](https://github.com/)
+-   [Components](https://github.com/)
+-   [Dependencies](https://github.com/)
+-   [Contributing](https://sculpin.io/)
 
 ### Overview
 
