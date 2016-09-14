@@ -1,10 +1,11 @@
 Loggregator Handbook
 ===========
 
+-   [Overview](https://github.com/)
 -   [Guide](https://github.com/)
 -   [Components](https://github.com/)
 -   [Dependencies](https://github.com/)
--   [Contributing](https://sculpin.io/)
+-   [Logs](https://github.com/)
 
 ### Overview
 
