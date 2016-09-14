@@ -2,10 +2,10 @@ Loggregator Handbook
 ===========
 
 -   [Overview](https://github.com/)
--   [Guide](https://github.com/)
 -   [Components](https://github.com/)
 -   [Dependencies](https://github.com/)
 -   [Logs](https://github.com/)
+-   [Training Guide](https://github.com/)
 
 ### Overview
 
