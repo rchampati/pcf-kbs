@@ -9,21 +9,18 @@ Loggregator Handbook
 
 ### Overview
 
-Loggregator is composed of:
-* **Sources**: Logging agents that run on the Cloud Foundry components.
-* **Metron**: Metron agents are co-located with sources. They collect logs and forward them to:
-* **Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
-* **Traffic Controller**: Handles client requests for logs. Gathers and collates messages from all Doppler servers, and provides external API and message translation (as needed for legacy APIs).
+Loggregator is composed of Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
 
 ![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
 
 ### Components
 Source agents emit the logging data as [protocol-buffers](https://github.com/google/protobuf), and the data stays in that format throughout the system.
 
-1. [Runner VMs](https://github.com/)
+1. [Sources](https://github.com/) - Logging agents that run on the Cloud Foundry components.[Runner VMs](https://github.com/)
+2. [Metron](https://github.com/) - Metron agents are co-located with sources. They collect logs and forward them to
 1. [Cloud Controller VMs](https://github.com/)
-2. [Doppler](https://github.com/)
-3. [Traffic Controller](https://github.com/)
+2. [Doppler](https://github.com/) - Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains
+3. [Traffic Controller](https://github.com/) - Handles client requests for logs. Gathers and collates messages from all Doppler servers, and provides external API and message translation (as needed for legacy APIs).
 4. [Nozzles](https://github.com/)
 
 On AWS, availability zones could be used as redundancy zones. The following is an example of a multi zone setup with two zones.
