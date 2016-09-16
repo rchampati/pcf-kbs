@@ -24,9 +24,10 @@ Playbooks
 
 ### General
 
-* [Installation](http://github.com/cloudfoundry/docs-cloudfoundry-concepts): Underlying concepts and architecture
-* [Upgrade](https://github.com/cloudfoundry/docs-cf-cli): A guide to the cf CLI for Cloud Foundry developers and users 
-* [Data Loss](http://github.com/cloudfoundry/docs-dev-guide): Step-by-step instructions and reference material for developers pushing applications to Cloud Foundry
+* [Installation](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+* [Upgrade](https://github.com/cloudfoundry/docs-cf-cli)
+* [Data Loss](http://github.com/cloudfoundry/docs-dev-guide)
+* [Performance](http://github.com/cloudfoundry/docs-dev-guide)
  
 ### Components
 
@@ -42,7 +43,7 @@ The properties discussed below as well as their behavior might change in the fut
 
 1. [etcd](https://github.com/)
 1. [consul](https://github.com/)
-
+2. [syslog](https://github.com/)
 
 Training Guide
 ---------------------------
