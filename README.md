@@ -20,6 +20,8 @@ Loggregator is composed of Doppler**: Responsible for gathering logs from the **
 Playbooks
 -----------------
 
+### General
+
 * [Installation](http://github.com/cloudfoundry/docs-cloudfoundry-concepts): Underlying concepts and architecture
 * [Upgrade](https://github.com/cloudfoundry/docs-cf-cli): A guide to the cf CLI for Cloud Foundry developers and users 
 * [Data Loss](http://github.com/cloudfoundry/docs-dev-guide): Step-by-step instructions and reference material for developers pushing applications to Cloud Foundry
@@ -43,25 +45,20 @@ The properties discussed below as well as their behavior might change in the fut
 Training Guide
 ---------------------------
 
-* [Cloud Foundry Concepts](http://github.com/cloudfoundry/docs-cloudfoundry-concepts): Underlying concepts and architecture
-* [Cloud Foundry Command-Line Interface (cf CLI)](https://github.com/cloudfoundry/docs-cf-cli): A guide to the cf CLI for Cloud Foundry developers and users 
-* [Developer Guide](http://github.com/cloudfoundry/docs-dev-guide): Step-by-step instructions and reference material for developers pushing applications to Cloud Foundry
-* [Deploying Cloud Foundry](http://github.com/cloudfoundry/docs-deploying-cf): Instructions for operators using BOSH to deploying Cloud Foundry on AWS, vSphere, vCloud, OpenStack, etc.
-* [Running Cloud Foundry](http://github.com/cloudfoundry/docs-running-cf): Information for operators running Cloud Foundry
-* [Administrator Tools](https://github.com/cloudfoundry/docs-cf-admin): Documentation about operating Cloud Foundry deployments using BOSH and the cf command line tool
+* [Gettings Started](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+* [Overview of the Loggregator System](https://github.com/cloudfoundry/docs-cf-cli)
+* [Application Logging in Cloud Foundry](http://github.com/cloudfoundry/docs-dev-guide)
+* [Component Metrics](http://github.com/cloudfoundry/docs-deploying-cf)
+* [Nozzles and Firehose](http://github.com/cloudfoundry/docs-running-cf)
 
 Resources
 ------------------------------
 
-1. Clone your fork of the content repository. Make sure to clone your fork of the topic repository to a directory that is a sibling to this book repository. So, for example, if you are contributing content to the Buildpack documentation, your folder structure would look like this:
+* [Webinars & Videos](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+* [Documentation](https://github.com/cloudfoundry/docs-cf-cli)
+* [Articles](http://github.com/cloudfoundry/docs-dev-guide)
+* [Training](http://github.com/cloudfoundry/docs-dev-guide)
 
-  <pre>
-    +-- docs-book-cloudfoundry
-    | +-- docs-buildpacks
-    +-- docs-buildpacks
-    | +-- docs-buildpacks
-    | +-- docs-buildpacks
-  </pre>
   
 ### Contributing
 
