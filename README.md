@@ -7,13 +7,15 @@ Loggregator Handbook
 -   [Logs](https://github.com/)
 -   [Training Guide](https://github.com/)
 -   [Resources](https://github.com/)
+-   [Glossary](https://github.com/)
 
 Overview
 ------------------
 
 Loggregator is composed of Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
 
-### Architecture
+Architecture
+-----------------
 
 ![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
 
@@ -58,6 +60,7 @@ Resources
 * [Documentation](https://github.com/cloudfoundry/docs-cf-cli)
 * [Articles](http://github.com/cloudfoundry/docs-dev-guide)
 * [Training](http://github.com/cloudfoundry/docs-dev-guide)
+* [Glossary](http://github.com/cloudfoundry/docs-dev-guide)
 
   
 ### Contributing
