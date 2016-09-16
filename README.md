@@ -34,6 +34,9 @@ Playbooks
 * [Sources](https://github.com/) - Logging agents that run on the Cloud Foundry components.[Runner VMs](https://github.com/)
 * [Metron](https://github.com/) - Metron agents are co-located with sources. They collect logs and forward them to
 * [Cloud Controller VMs](https://github.com/)
+ * [Cloud Controller](https://github.com/)
+ * [Go Router](https://github.com/)
+ * [UAA](https://github.com/)
 * [Doppler](https://github.com/) - Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains
 * [Traffic Controller](https://github.com/) - Handles client requests for logs. Gathers and collates messages from all Doppler servers, and provides external API and message translation (as needed for legacy APIs).
 * [Nozzles](https://github.com/)
@@ -59,8 +62,7 @@ Resources
 
 * [Webinars & Videos](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
 * [Documentation](https://github.com/cloudfoundry/docs-cf-cli)
-* [Articles](http://github.com/cloudfoundry/docs-dev-guide)
-* [Training](http://github.com/cloudfoundry/docs-dev-guide)
+* [Articles](http://github.com/cloudfoundry/docs-dev-guide) 
 * [Glossary](http://github.com/cloudfoundry/docs-dev-guide)
 
   
