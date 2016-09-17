@@ -47,10 +47,7 @@ The properties discussed below as well as their behavior might change in the fut
 1. [etcd](https://github.com/)
 1. [consul](https://github.com/)
 2. [syslog](https://github.com/)
-
-<<<<<<< HEAD
-### Training Guide
-=======
+ 
 Training Guide
 ---------------------------
 
@@ -61,8 +58,7 @@ Training Guide
 * [Nozzles and Firehose](http://github.com/cloudfoundry/docs-running-cf)
 
 Resources
-------------------------------
->>>>>>> structure
+------------------------------ 
 
 * [Webinars & Videos](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
 * [Documentation](https://github.com/cloudfoundry/docs-cf-cli)
