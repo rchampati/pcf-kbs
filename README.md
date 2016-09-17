@@ -1,12 +1,13 @@
 Loggregator Handbook
 ===========
 
--   [Overview](https://github.com/)
--   [Components](https://github.com/)
--   [Dependencies](https://github.com/)
--   [Logs](https://github.com/)
--   [Training Guide](https://github.com/)
--   [Resources](https://github.com/)
+-   [Overview](https://github.com/timani/pcf-loggregator/tree/structure#overview)
+-   [Playbooks](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+ -   [General](https://github.com/timani/pcf-loggregator/tree/structure#general)
+ -   [Components](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
+ -   [Dependencies](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
+-   [Training Guide](https://github.com/timani/pcf-loggregator/tree/structure#training-guide)
+-   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
 -   [Glossary](https://github.com/)
 
 Overview
