@@ -37,18 +37,6 @@ The properties discussed below as well as their behavior might change in the fut
 1. [etcd](https://github.com/)
 1. [consul](https://github.com/)
 
-### Direcory Structure
-
-1. Clone your fork of the content repository. Make sure to clone your fork of the topic repository to a directory that is a sibling to this book repository. So, for example, if you are contributing content to the Buildpack documentation, your folder structure would look like this:
-
-  <pre>
-    +-- docs-book-cloudfoundry
-    | +-- docs-buildpacks
-    +-- docs-buildpacks
-    | +-- docs-buildpacks
-    | +-- docs-buildpacks
-  </pre>
-
 ### Training Guide
 
 * [Cloud Foundry Concepts](http://github.com/cloudfoundry/docs-cloudfoundry-concepts): Underlying concepts and architecture
