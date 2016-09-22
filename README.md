@@ -1,42 +1,26 @@
-Loggregator Handbook
+Knowledge Base Guide
 ===========
 
--   [Overview](https://github.com/timani/pcf-loggregator/tree/structure#overview)
--   [Playbooks](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
- -   [General](https://github.com/timani/pcf-loggregator/tree/structure#general)
-    - [Installation](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Upgrade](https://github.com/cloudfoundry/docs-cf-cli)
-    - [Data Loss](http://github.com/cloudfoundry/docs-dev-guide)
-    - [Performance](http://github.com/cloudfoundry/docs-dev-guide)
- -   [Components](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
-    - [Sources](https://github.com/)
-    - [Metron](https://github.com/)
-    - [Cloud Controller VMs](https://github.com/)
-     - [Cloud Controller](https://github.com/)
-     - [Go Router](https://github.com/)
-     - [UAA](https://github.com/)
-    - [Doppler](https://github.com/)
-    - [Traffic Controller](https://github.com/)
-    - [Nozzles](https://github.com/)
- -   [Dependencies](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
--   [Training Guide](https://github.com/timani/pcf-loggregator/tree/structure#training-guide)
-    - [Gettings Started](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Overview of the Loggregator System](https://github.com/cloudfoundry/docs-cf-cli)
-    - [Application Logging in Cloud Foundry](http://github.com/cloudfoundry/docs-dev-guide)
-    - [Component Metrics](http://github.com/cloudfoundry/docs-deploying-cf)
-    - [Nozzles and Firehose](http://github.com/cloudfoundry/docs-running-cf)
--   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#dependencies)
--   [Glossary](https://github.com/)
+-   [Getting Started](https://github.com/timani/pcf-loggregator/tree/structure#overview)
+ -   [Setting up your board](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+-   [Roles](https://github.com/timani/pcf-loggregator/tree/structure#general)
+    - [Knowledge Management](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Subject Matter Expert](https://github.com/cloudfoundry/docs-cf-cli)
+    - [GSS Contributor](http://github.com/cloudfoundry/docs-dev-guide)
+-   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
+    - [Adding stories](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Updating stories](https://github.com/cloudfoundry/docs-cf-cli)
+    - [Review process](http://github.com/cloudfoundry/docs-dev-guide)    
+-   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#general) 
+    - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+
+
 
 Overview
 ------------------
 
 Loggregator is composed of Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
-
-Architecture
------------------
-
-![Loggregator Diagram](https://github.com/cloudfoundry/loggregator/blob/develop/docs/loggregator.png )
 
 Playbooks
 -----------------
@@ -60,13 +44,6 @@ Playbooks
 * [Traffic Controller](https://github.com/) - Handles client requests for logs. Gathers and collates messages from all Doppler servers, and provides external API and message translation (as needed for legacy APIs).
 * [Nozzles](https://github.com/)
 
-### Dependencies
-The properties discussed below as well as their behavior might change in the future.
-
-1. [etcd](https://github.com/)
-1. [consul](https://github.com/)
-2. [syslog](https://github.com/)
- 
 Training Guide
 ---------------------------
 
