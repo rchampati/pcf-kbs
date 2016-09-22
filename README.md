@@ -3,14 +3,17 @@ Knowledge Base Guide
 
 -   [Getting Started](https://github.com/timani/pcf-loggregator/tree/structure#overview)
  -   [Setting up your board](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+   -   [Pivotal Cloud Foundry](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+    -   [Data](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+-   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
+    - [Overview](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Adding stories](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Updating stories](https://github.com/cloudfoundry/docs-cf-cli)
+    - [Review process](http://github.com/cloudfoundry/docs-dev-guide)    
 -   [Roles](https://github.com/timani/pcf-loggregator/tree/structure#general)
     - [Knowledge Management](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Subject Matter Expert](https://github.com/cloudfoundry/docs-cf-cli)
     - [GSS Contributor](http://github.com/cloudfoundry/docs-dev-guide)
--   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
-    - [Adding stories](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Updating stories](https://github.com/cloudfoundry/docs-cf-cli)
-    - [Review process](http://github.com/cloudfoundry/docs-dev-guide)    
 -   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#general) 
     - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
@@ -31,18 +34,6 @@ Playbooks
 * [Upgrade](https://github.com/cloudfoundry/docs-cf-cli)
 * [Data Loss](http://github.com/cloudfoundry/docs-dev-guide)
 * [Performance](http://github.com/cloudfoundry/docs-dev-guide)
- 
-### Components
-
-* [Sources](https://github.com/) - Logging agents that run on the Cloud Foundry components.[Runner VMs](https://github.com/)
-* [Metron](https://github.com/) - Metron agents are co-located with sources. They collect logs and forward them to
-* [Cloud Controller VMs](https://github.com/)
- * [Cloud Controller](https://github.com/)
- * [Go Router](https://github.com/)
- * [UAA](https://github.com/)
-* [Doppler](https://github.com/) - Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains
-* [Traffic Controller](https://github.com/) - Handles client requests for logs. Gathers and collates messages from all Doppler servers, and provides external API and message translation (as needed for legacy APIs).
-* [Nozzles](https://github.com/)
 
 Training Guide
 ---------------------------
