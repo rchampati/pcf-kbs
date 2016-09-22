@@ -1,11 +1,11 @@
 Knowledge Base Guide
 ===========
 
+Loggregator is composed of Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
+
 
 Overview
 ------------------
-
-Loggregator is composed of Doppler**: Responsible for gathering logs from the **Metron agents**, storing them in temporary buffers, and forwarding logs to 3rd party syslog drains.
 
 -   [Getting Started](https://github.com/timani/pcf-loggregator/tree/structure#overview)
  -   [Setting up your board](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
@@ -25,16 +25,6 @@ Loggregator is composed of Doppler**: Responsible for gathering logs from the **
     - [Labels](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-
-
-Training Guide
----------------------------
-
-* [Gettings Started](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-* [Overview of the Loggregator System](https://github.com/cloudfoundry/docs-cf-cli)
-* [Application Logging in Cloud Foundry](http://github.com/cloudfoundry/docs-dev-guide)
-* [Component Metrics](http://github.com/cloudfoundry/docs-deploying-cf)
-* [Nozzles and Firehose](http://github.com/cloudfoundry/docs-running-cf)
 
 Resources
 ------------------------------ 
