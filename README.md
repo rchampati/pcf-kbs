@@ -25,9 +25,6 @@ Loggregator is composed of Doppler**: Responsible for gathering logs from the **
     - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
 
 
-Playbooks
------------------
-
 Training Guide
 ---------------------------
 
