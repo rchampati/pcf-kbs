@@ -25,6 +25,7 @@ Overview
     - [Labels](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+- [Glossary](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
 
 Resources
 ------------------------------ 
