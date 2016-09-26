@@ -12,6 +12,7 @@ Overview
     -   [Pivotal Cloud Foundry](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
 -   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
     - [Overview](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+     - [Requirements for KBs](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Adding a story](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Updating a story](https://github.com/cloudfoundry/docs-cf-cli)
     - [Review process](http://github.com/cloudfoundry/docs-dev-guide)    
