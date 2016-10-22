@@ -7,9 +7,7 @@ Overview
 ------------------
 
 -   [Getting Started](https://github.com/timani/pcf-loggregator/tree/structure#overview)
- -   [Setting up your board](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
-    -   [Data](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
-    -   [Pivotal Cloud Foundry](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
+-  [Setting up your board](https://github.com/timani/pcf-loggregator/tree/structure#playbooks)
 -   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
     - [Overview](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
      - [Requirements for KBs](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
