@@ -19,7 +19,6 @@ Overview
     - [Subject Matter Expert](https://github.com/cloudfoundry/docs-cf-cli)
 -   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#general) 
     - [Labels](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Reports](http://github.com/cloudfoundry/docs-cloudfoundry-concepts) 
     - [Style Guide](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Templates](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
