@@ -7,7 +7,7 @@ Overview
 ------------------
 
 -   [Getting Started](#getting-started)
-    - [Requirements](#requirements)
+    - [Criteria for an article](#requirements)
 -   [Workflow](#workflow)
     - [Overview](#overview)
     - [Suggest an article](#suggest-an-article)
@@ -29,14 +29,22 @@ Overview
 
 Getting Started
 ------------------------------ 
+### Criteria for an article
 
 Workflow
 ------------------------------ 
 
-### 1. Suggest an article
-### 2. Create an article
-### 3. Deliver an article
-### 4. Article review
+### Suggest an article
+Write stories. The customer, project or product manager (PM), or product owner (PO) adds new feature stories. This might be done in an activity with other team members, such as story mapping, specification workshops, or an iteration planning meeting (IPM).
+
+### Create an article
+Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state if they are added to the Icebox, are unestimated, or if they have points to estimate in place of an action button.
+ 
+### Deliver an article
+When creating new articles, please make sure you mark the article as being a draft until it has been approved by another support engineer.  When editing articles please be careful as saved changes will be immediately visible to end users.
+
+### Article review
+There are no specific requirements as to which section headers you should include in an article.  Every KB article may have a different set of headers that are appropriate for it.
 
 Roles
 ------------------------------ 
