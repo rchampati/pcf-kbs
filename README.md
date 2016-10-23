@@ -33,10 +33,10 @@ Getting Started
 Workflow
 ------------------------------ 
 
-### Suggest an article
-### Create an article
-### Deliver an article
-### Article review
+### 1. Suggest an article
+### 2. Create an article
+### 3. Deliver an article
+### 4. Article review
 
 Roles
 ------------------------------ 
@@ -48,10 +48,10 @@ Roles
 Resources
 ------------------------------ 
 
-### Labels
 ### Style Guide
 ### Templates
 ### Pivotal Tracker
+### Labels
 ### Bookmarks
 ### Roadmap
 ### Glossary
