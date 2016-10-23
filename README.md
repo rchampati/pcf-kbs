@@ -17,7 +17,7 @@ Overview
 -   [Roles](https://github.com/timani/pcf-loggregator/tree/structure#general)
     - [Contributor](http://github.com/cloudfoundry/docs-dev-guide)
     - [Knowledge Management](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Subject Matter Expert](https://github.com/cloudfoundry/docs-cf-cli)
+    - [Subject Matter Expert (SME)](https://github.com/cloudfoundry/docs-cf-cli)
 -   [Resources](https://github.com/timani/pcf-loggregator/tree/structure#general) 
     - [Labels](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Style Guide](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
@@ -25,6 +25,24 @@ Overview
     - [Tracker](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
     - [Bookmarks & Links](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
 - [Glossary](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+
+Getting Started
+------------------------------ 
+
+Workflow
+------------------------------ 
+
+### Suggest an article
+### Create an article
+### Submit an article
+### Article review
+
+Roles
+------------------------------ 
+
+### Contributor
+### Knowledge Management
+### Subject Matter Expert (SME)
 
 Resources
 ------------------------------ 
