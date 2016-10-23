@@ -24,7 +24,8 @@ Overview
     - [Templates](#templates)
     - [Pivotal Tracker](#pivotal-tracker)
     - [Bookmarks](#bookmarks)
-- [Glossary](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
+    - [Glossary](#glossary)
+    - [Roadmap](#roadmap)
 
 Getting Started
 ------------------------------ 
@@ -50,10 +51,10 @@ Resources
 ### Labels
 ### Style Guide
 ### Templates
-### Knowledge Management
+### Pivotal Tracker
+### Bookmarks
+### Roadmap
 ### Glossary
-  
-### Contributing
 
 Read [CONTRIBUTING.md](<CONTRIBUTING.md>) for more details on contributing
 documentation improvements.
