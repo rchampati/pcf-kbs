@@ -6,13 +6,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Overview
 ------------------
 
--   [Getting Started](https://github.com/timani/pcf-loggregator/tree/structure#overview)
+-   [Getting Started](#getting-started)
     - [Requirements](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
--   [Workflow](https://github.com/timani/pcf-loggregator/tree/structure#general)
-    - [Overview](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Suggest an article](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-    - [Create an article](https://github.com/cloudfoundry/docs-cf-cli)
-    - [Submit an article](https://github.com/cloudfoundry/docs-cf-cli)
+-   [Workflow](#workflow)
+    - [Overview](#overview)
+    - [Suggest an article](#suggest-an-article)
+    - [Create an article](#create-an-article)
+    - [Deliver an article](#deliver-an-article)
     - [Article review](http://github.com/cloudfoundry/docs-dev-guide)    
 -   [Roles](https://github.com/timani/pcf-loggregator/tree/structure#general)
     - [Contributor](http://github.com/cloudfoundry/docs-dev-guide)
@@ -34,7 +34,7 @@ Workflow
 
 ### Suggest an article
 ### Create an article
-### Submit an article
+### Deliver an article
 ### Article review
 
 Roles
@@ -47,10 +47,11 @@ Roles
 Resources
 ------------------------------ 
 
-* [Webinars & Videos](http://github.com/cloudfoundry/docs-cloudfoundry-concepts)
-* [Documentation](https://github.com/cloudfoundry/docs-cf-cli)
-* [Glossary](http://github.com/cloudfoundry/docs-dev-guide)
-
+### Labels
+### Style Guide
+### Templates
+### Knowledge Management
+### Glossary
   
 ### Contributing
 
