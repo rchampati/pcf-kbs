@@ -7,7 +7,7 @@ Overview
 ------------------
 
 -   [Getting Started](#getting-started)
-    - [Criteria for an article](#requirements)
+    - [Criteria for an article](#criteria-for-an-article)
 -   [Workflow](#workflow)
     - [Overview](#overview)
     - [Suggest an article](#suggest-an-article)
