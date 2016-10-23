@@ -29,7 +29,17 @@ Overview
 
 Getting Started
 ------------------------------ 
+
 ### Criteria for an article
+
+When coding and testing activities for the story have been completed, and the automated tests for it have all passed, the developer(s) click the Finish button (or possibly their commit message does this via Tracker’s SCM integration.
+
+[Workflow](#workflow)
+- [Overview](#overview)
+- [Suggest an article](#suggest-an-article)
+- [Create an article](#create-an-article)
+- [Deliver an article](#deliver-an-article)
+- [Article review](#article-review)    
 
 Workflow
 ------------------------------ 
