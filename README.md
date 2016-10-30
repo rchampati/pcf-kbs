@@ -8,7 +8,6 @@ Overview
 
 -   [Getting Started](#getting-started)
     - [Criteria for an article](#criteria-for-an-article)
--   [Knowledge Base Topics](#resources)    
 -   [Workflow](#workflow)
     - [Overview](#overview)
     - [Suggest an article](#suggest-an-article)
@@ -19,6 +18,7 @@ Overview
     - [Contributor](#contributor)
     - [Knowledge Management](#knowledge-management)
     - [Subject Matter Expert (SME)](#subject-matter-expert-sme)
+-   [Knowledge Base Topics](#resources)    
 -   [Resources](#resources)
     - [Labels](#labels)
     - [Style Guide](#style-guide)
