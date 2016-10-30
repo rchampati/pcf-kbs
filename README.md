@@ -14,6 +14,14 @@ Overview
     - [Create an article](#create-an-article)
     - [Deliver an article](#deliver-an-article)
     - [Article review](#article-review)    
+-   [Knowledge Base Topics](#resources)    
+    - [CAPI](#workflow)
+    - [Buildpacks](#overview)
+    - [Diego](#overview)
+    - [Iaas/Platforms](#overview)
+    - [Router](#suggest-an-article)
+    - [Pivotal Cloud Foundry](#create-an-article)
+    - [Services](#deliver-an-article)
 -   [Roles](#roles)
     - [Contributor](#contributor)
     - [Knowledge Management](#knowledge-management)
@@ -134,6 +142,7 @@ Bookmarks
 - [Pivotal Data Knowledge Base](#overview)
 - [Pivotal Documentation](#overview)
 - [Pivotal Support](#overview)
+- [Pivotal Network](#overview)
 
 Read [CONTRIBUTING.md](<CONTRIBUTING.md>) for more details on contributing
 documentation improvements.
