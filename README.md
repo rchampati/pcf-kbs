@@ -45,7 +45,7 @@ Workflow
 
 <img src="img/workflow.png" display="inline" />
 
-### Suggest an article
+### Suggest an idea or Article Update
 Write stories. The customer, project or product manager (PM), or product owner (PO) adds new feature stories.
 
 - You will only be able to switch to Simplified Workflow if:
@@ -53,7 +53,7 @@ Write stories. The customer, project or product manager (PM), or product owner (
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
 
-### Create an article
+### Create/Edit article
 Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state if they are added to the Icebox, are unestimated, or if they have points to estimate in place of an action button.
 
 - You will only be able to switch to Simplified Workflow if:
@@ -61,16 +61,25 @@ Mock-ups, assets, or other examples may be attached to stories and/or epics. Sto
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
 
-### Deliver an article
+### Submit article
 When creating new articles, please make sure you mark the article as being a draft until it has been approved by another support engineer.  When editing articles please be careful as saved changes will be immediately visible to end users.
 
 - You will only be able to switch to Simplified Workflow if:
-- There is only one project being viewed by your board (to check this, look at the board's filter); and
+- There is only one project being viewed by your board (to check this, look at the board's filter);
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
-### Article review
-There are no specific requirements as to which section headers you should include in an article.  Every KB article may have a different set of headers that are appropriate for it.
+### Article Review
+There are no specific requirements as to which section headers you should include in an article.  
+
+- That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
+- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
+
+### Publish Article
+ Every KB article may have a different set of headers that are appropriate for it.
+
+ - You will only be able to switch to Simplified Workflow if:
+ - There is only one project being viewed by your board (to check this, look at the board's filter);
 
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
