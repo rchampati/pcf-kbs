@@ -62,20 +62,30 @@ Write stories. The customer, project or product manager (PM), or product owner (
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
 
 ### Create/Edit article
-Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state if they are added to the Icebox, are unestimated, or if they have points to estimate in place of an action button.
+Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state
 
-- You will only be able to switch to Simplified Workflow if:
-- There is only one project being viewed by your board (to check this, look at the board's filter); and
-- That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
+- Review the Knowledge Base Topics
+- Fork the Knowledge Base Topic repository
+- Clone your fork
+- Making and pushing changes
 
 ### Submit article
-When creating new articles, please make sure you mark the article as being a draft until it has been approved by another support engineer.  When editing articles please be careful as saved changes will be immediately visible to end users.
+When creating new articles, please make sure you mark the article as being a draft until it has been approved by another support engineer.  
 
-- You will only be able to switch to Simplified Workflow if:
+#### Github
+- Making a Pull Request
 - There is only one project being viewed by your board (to check this, look at the board's filter);
-- That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
+- That project uses a JIRA workflow scheme which only has one
+
+#### Command Line
+
+They are added to the Icebox, are unestimated, or if they have points to estimate in place of an action button.
+
+    git clone --recursive git@github.com:<username>/gitflow.git
+    cd gitflow
+    git branch master origin/master
+    git flow init -d
+    git flow feature start <your feature>
 
 ### Article Review
 There are no specific requirements as to which section headers you should include in an article.  
@@ -84,6 +94,7 @@ There are no specific requirements as to which section headers you should includ
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Publish Article
+
  Every KB article may have a different set of headers that are appropriate for it.
 
  - You will only be able to switch to Simplified Workflow if:
@@ -99,7 +110,6 @@ This might be done in an activity with other team members, such as story mapping
 - [Router](#suggest-an-article)
 - [Pivotal Cloud Foundry](#create-an-article)
 - [Services](#deliver-an-article)
-
 
 Roles
 ------------------------------
