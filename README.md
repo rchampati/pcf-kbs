@@ -43,7 +43,7 @@ When coding and testing activities for the story have been completed, and the au
 Workflow
 ------------------------------
 
-<img src="img/workflow.png" display="inline" />
+<img src="img/workflow.png?" display="inline" />
 
 ### Suggest an idea or Article Update
 Write stories. The customer, project or product manager (PM), or product owner (PO) adds new feature stories.
@@ -125,9 +125,15 @@ Resources
 - [Style Guide](#overview)
 - [Templates](#overview)
 - [Labels](#overview)
-- [Bookmarks](#overview)
 - [Roadmap](#overview)
 - [Glossary](#overview)
+
+Bookmarks
+------------------------------
+- [Pivotal Cloud Foundry Knowledge Base](#overview)
+- [Pivotal Data Knowledge Base](#overview)
+- [Pivotal Documentation](#overview)
+- [Pivotal Support](#overview)
 
 Read [CONTRIBUTING.md](<CONTRIBUTING.md>) for more details on contributing
 documentation improvements.
