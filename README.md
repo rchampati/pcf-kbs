@@ -54,7 +54,6 @@ Write stories. The customer, project or product manager (PM), or product owner (
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
 
 ### Create/Edit article
 Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state
@@ -117,23 +116,18 @@ Roles
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Knowledge Management
 
-
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Subject Matter Expert (SME)
 
-
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 Resources
 ------------------------------
