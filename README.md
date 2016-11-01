@@ -99,7 +99,7 @@ This might be done in an activity with other team members, such as story mapping
 
 ### Pivotal Cloud Foundry
 
-|Section|Components||
+|Repository|Components||
 |---|---|---|
 |[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
 |[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
