@@ -106,8 +106,8 @@ This might be done in an activity with other team members, such as story mapping
 |[Diego](#overview)|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
 |[Iaas/Platforms](#overview)|Azure, Google Compute, Openstack, VSphere|Knowledge Base|
 |[Pivotal Cloud Foundry](#create-an-article)|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
-|[Security](#deliver-an-article)|RabbitMQ, Redis, CFOps|Knowledge Base|
-|[Services](#deliver-an-article)|RabbitMQ, Redis |Knowledge Base|
+|[Security](#deliver-an-article)|Best Practices, CVEs|Knowledge Base|
+|[Services](#deliver-an-article)|RabbitMQ, Redis, CFOps |Knowledge Base|
 
 Roles
 ------------------------------
