@@ -34,12 +34,14 @@ Getting Started
 
 When coding and testing activities for the story have been completed, and the automated tests for it have all passed, the developer(s) click the Finish button (or possibly their commit message does this via Tracker’s SCM integration.
 
-- [Break-fix Guide](#overview)
-- [Checklist](#deliver-an-article)
-- [Concepts](#article-review)    
-- [How To](#suggest-an-article)
-- [Tools](#article-review)    
-- [Troubleshooting Guide](#create-an-article)
+|Template|Definition|Example|
+|---|---|---|
+|[Break-fix Guide](#suggest-an-article)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod|Training Guide|
+|[Checklist](#suggest-an-article)|Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat|Training Guide|
+|[Concepts](#article-review) |Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation|Training Guide|
+|[How To](#suggest-an-article)|Iipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor|Training Guide|
+|[Tools](#article-review) |Sure you mark the article as being a draft until it has been approved by another support engineer|Training Guide|
+|[Troubleshooting Guide](#create-an-article)|Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian|Training Guide|
 
 Workflow
 ------------------------------
