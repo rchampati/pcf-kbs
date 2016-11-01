@@ -98,14 +98,6 @@ There are no specific requirements as to which section headers you should includ
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
 
-- 
-- 
-- 
-- [Iaas/Platforms](#overview)
-- [Router](#suggest-an-article)
-- [Pivotal Cloud Foundry](#create-an-article)
-- [Services](#deliver-an-article)
-
 |Section|Components||
 |---|---|---|
 |[Configuration](#deliver-an-article)|Networking, Storage|Knowledge Base|
