@@ -99,14 +99,14 @@ This might be done in an activity with other team members, such as story mapping
 
 |Section|Components||
 |---|---|---|
-|[Configuration](#deliver-an-article)|Networking, Storage|Knowledge Base|
-|[CAPI](#workflow)|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
-|[Buildpacks](#overview)|Java, Python, Ruby, Static|Knowledge Base|
-|[Diego](#overview)|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
-|[Iaas/Platforms](#overview)|Azure, Google Compute, Openstack, VSphere|Knowledge Base|
-|[Pivotal Cloud Foundry](#create-an-article)|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
-|[Security](#deliver-an-article)|Best Practices, CVEs|Knowledge Base|
-|[Services](#deliver-an-article)|RabbitMQ, Redis, CFOps |Knowledge Base|
+|[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
+|[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
+|[Buildpacks](#overview)|[Java](#overview), [Python](#overview)], [Ruby](#overview), [Static](#overview)|Knowledge Base|
+|[Diego](#overview)|[Loggregator](#overview),[Brain](#overview),[BBS](#overview),[Cell](#overview), [Garden](#overview)|Knowledge Base|
+|[Iaas/Platforms](#overview)|[Azure, [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
+|[Pivotal Cloud Foundry](#create-an-article)|[Apps Manager](#overview), [Ops Manager](#overview), [Push Notifications](#overview)|Knowledge Base|
+|[Security](#deliver-an-article)|[Best Practices](#overview), [CVEs](#overview)|Knowledge Base|
+|[Services](#deliver-an-article)|[RabbitMQ](#overview), [Redis](#overview), [CFOps](#overview) |Knowledge Base|
 
 Roles
 ------------------------------
