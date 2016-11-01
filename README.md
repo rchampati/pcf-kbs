@@ -98,13 +98,24 @@ There are no specific requirements as to which section headers you should includ
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
 
-- [CAPI](#workflow)
-- [Buildpacks](#overview)
-- [Diego](#overview)
+- 
+- 
+- 
 - [Iaas/Platforms](#overview)
 - [Router](#suggest-an-article)
 - [Pivotal Cloud Foundry](#create-an-article)
 - [Services](#deliver-an-article)
+
+|Section|Components||
+|---|---|---|
+|[Configuration](#deliver-an-article)|Networking, Storage|Knowledge Base|
+|[CAPI](#workflow)|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
+|[Buildpacks](#overview)|Java, Python, Ruby, Static|Knowledge Base|
+|[Diego](#overview)|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
+|[Iaas/Platforms](#overview)|Azure, Google Compute, Openstack, VSphere|Knowledge Base|
+|[Pivotal Cloud Foundry](#create-an-article)|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
+|[Security](#deliver-an-article)|RabbitMQ, Redis, CFOps|Knowledge Base|
+|[Services](#deliver-an-article)|RabbitMQ, Redis |Knowledge Base|
 
 Roles
 ------------------------------
