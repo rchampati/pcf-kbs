@@ -103,7 +103,7 @@ This might be done in an activity with other team members, such as story mapping
 |---|---|---|
 |[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
 |[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
-|[Buildpacks](#overview)|[Java](#overview), [Python](#overview), [Ruby](#overview), [Static](#overview)|Knowledge Base|
+|[Buildpacks](#overview)|[Java](#overview), [NodeJS](#overview), [PHP](#overview), [Python](#overview), [Ruby](#overview), [Static](#overview)|Knowledge Base|
 |[Diego](#overview)|[Loggregator](#overview),[Brain](#overview),[BBS](#overview),[Cell](#overview), [Garden](#overview)|Knowledge Base|
 |[Iaas/Platforms](#overview)|[Azure](#overview), [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
 |[Pivotal Cloud Foundry](#create-an-article)|[Apps Manager](#overview), [Ops Manager](#overview), [Push Notifications](#overview)|Knowledge Base|
