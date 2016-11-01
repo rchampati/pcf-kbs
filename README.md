@@ -34,12 +34,14 @@ Getting Started
 
 When coding and testing activities for the story have been completed, and the automated tests for it have all passed, the developer(s) click the Finish button (or possibly their commit message does this via Tracker’s SCM integration.
 
-[Workflow](#workflow)
-- [Overview](#overview)
-- [Suggest an article](#suggest-an-article)
-- [Create an article](#create-an-article)
-- [Deliver an article](#deliver-an-article)
-- [Article review](#article-review)    
+|Template|Definition|Example|
+|---|---|---|
+|[Break-fix Guide](#suggest-an-article)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod|Training Guide|
+|[Checklist](#suggest-an-article)|Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat|Training Guide|
+|[Concepts](#article-review) |Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation|Training Guide|
+|[How To](#suggest-an-article)|Iipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor|Training Guide|
+|[Tools](#article-review) |Sure you mark the article as being a draft until it has been approved by another support engineer|Training Guide|
+|[Troubleshooting Guide](#create-an-article)|Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian|Training Guide|
 
 Workflow
 ------------------------------
@@ -52,7 +54,6 @@ Write stories. The customer, project or product manager (PM), or product owner (
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons); and
 
 ### Create/Edit article
 Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state
@@ -96,13 +97,26 @@ There are no specific requirements as to which section headers you should includ
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
 
-- [CAPI](#workflow)
-- [Buildpacks](#overview)
-- [Diego](#overview)
-- [Iaas/Platforms](#overview)
-- [Router](#suggest-an-article)
-- [Pivotal Cloud Foundry](#create-an-article)
-- [Services](#deliver-an-article)
+### Pivotal Cloud Foundry
+
+|Repository|Components||
+|---|---|---|
+|[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
+|[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
+|[Buildpacks](#overview)|[Java](#overview), [NodeJS](#overview), [PHP](#overview), [Python](#overview), [Ruby](#overview), [Static](#overview)|Knowledge Base|
+|[Diego](#overview)|[Loggregator](#overview),[Brain](#overview),[BBS](#overview),[Cell](#overview), [Garden](#overview)|Knowledge Base|
+|[Iaas/Platforms](#overview)|[Azure](#overview), [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
+|[Pivotal Cloud Foundry](#create-an-article)|[Apps Manager](#overview), [Ops Manager](#overview), [Push Notifications](#overview)|Knowledge Base|
+|[Security](#deliver-an-article)|[Best Practices](#overview), [CVEs](#overview)|Knowledge Base|
+|[Services](#deliver-an-article)|[RabbitMQ](#overview), [Redis](#overview), [CFOps](#overview) |Knowledge Base|
+
+### Pivotal Data Suite 
+
+|Section|Components||
+|---|---|---|
+|[Gemfire](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
+|[Greenplum](#workflow)|[Cloud Controller](#overview), [TPS](#overview)|Knowledge Base|
+
 
 Roles
 ------------------------------
@@ -112,23 +126,18 @@ Roles
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Knowledge Management
 
-
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Subject Matter Expert (SME)
 
-
 - You will only be able to switch to Simplified Workflow if:
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
-- Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 Resources
 ------------------------------
