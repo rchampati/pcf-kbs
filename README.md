@@ -97,16 +97,26 @@ There are no specific requirements as to which section headers you should includ
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
 
+### Pivotal Cloud Foundry
+
 |Section|Components||
 |---|---|---|
 |[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
 |[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
-|[Buildpacks](#overview)|[Java](#overview), [Python](#overview)], [Ruby](#overview), [Static](#overview)|Knowledge Base|
+|[Buildpacks](#overview)|[Java](#overview), [Python](#overview), [Ruby](#overview), [Static](#overview)|Knowledge Base|
 |[Diego](#overview)|[Loggregator](#overview),[Brain](#overview),[BBS](#overview),[Cell](#overview), [Garden](#overview)|Knowledge Base|
-|[Iaas/Platforms](#overview)|[Azure, [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
+|[Iaas/Platforms](#overview)|[Azure](#overview), [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
 |[Pivotal Cloud Foundry](#create-an-article)|[Apps Manager](#overview), [Ops Manager](#overview), [Push Notifications](#overview)|Knowledge Base|
 |[Security](#deliver-an-article)|[Best Practices](#overview), [CVEs](#overview)|Knowledge Base|
 |[Services](#deliver-an-article)|[RabbitMQ](#overview), [Redis](#overview), [CFOps](#overview) |Knowledge Base|
+
+### Pivotal Data Suite 
+
+|Section|Components||
+|---|---|---|
+|[Gemfire](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
+|[Greenplum](#workflow)|[Cloud Controller](#overview), [TPS](#overview)|Knowledge Base|
+
 
 Roles
 ------------------------------
