@@ -105,7 +105,7 @@ This might be done in an activity with other team members, such as story mapping
 |Configuration|Networking, Storage |Knowledge Base|
 |CAPI|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
 |Buildpacks|Java, NodeJS , PHP, Python, Ruby, Static|Knowledge Base|
-|Diego|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
+|[Diego](https://github.com/pivotal-gss/pcf-deigo-kb)|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
 |Iaas/Platforms|Azure, Google Compute Platform, Openstack, VSphere|Knowledge Base|
 |Pivotal Cloud Foundry|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
 |Security|Best Practices, CVEs|Knowledge Base|
