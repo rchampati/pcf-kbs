@@ -102,21 +102,22 @@ This might be done in an activity with other team members, such as story mapping
 
 |Repository|Components||
 |---|---|---|
-|[Configuration](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
-|[CAPI](#workflow)|[Cloud Controller](#overview), [CC Bridge](#overview), [Stager](#overview), [TPS](#overview)|Knowledge Base|
-|[Buildpacks](#overview)|[Java](#overview), [NodeJS](#overview), [PHP](#overview), [Python](#overview), [Ruby](#overview), [Static](#overview)|Knowledge Base|
-|[Diego](#overview)|[Loggregator](#overview),[Brain](#overview),[BBS](#overview),[Cell](#overview), [Garden](#overview)|Knowledge Base|
-|[Iaas/Platforms](#overview)|[Azure](#overview), [Google Compute Platform](#overview), [Openstack](#overview), [VSphere](#overview)|Knowledge Base|
-|[Pivotal Cloud Foundry](#create-an-article)|[Apps Manager](#overview), [Ops Manager](#overview), [Push Notifications](#overview)|Knowledge Base|
-|[Security](#deliver-an-article)|[Best Practices](#overview), [CVEs](#overview)|Knowledge Base|
-|[Services](#deliver-an-article)|[RabbitMQ](#overview), [Redis](#overview), [CFOps](#overview) |Knowledge Base|
+|Configuration|Networking, Storage |Knowledge Base|
+|CAPI|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
+|Buildpacks|Java, NodeJS , PHP, Python, Ruby, Static|Knowledge Base|
+|Diego|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
+|Iaas/Platforms|Azure, Google Compute Platform, Openstack, VSphere|Knowledge Base|
+|Pivotal Cloud Foundry|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
+|Security|Best Practices, CVEs|Knowledge Base|
+|Services|RabbitMQ, Redis, CFOps |Knowledge Base|
 
 ### Pivotal Data Suite 
 
 |Section|Components||
 |---|---|---|
-|[Gemfire](#deliver-an-article)|[Networking](#overview), [Storage](#overview)|Knowledge Base|
-|[Greenplum](#workflow)|[Cloud Controller](#overview), [TPS](#overview)|Knowledge Base|
+|Gemfire|Networking, Storage|Knowledge Base|
+|Greenplum|Cloud Controller, TPS|Knowledge Base|
+|HAWK|Cloud Controller, TPS|Knowledge Base|
 
 
 Roles
