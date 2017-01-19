@@ -1,7 +1,7 @@
 Pivotal Knowledge Base Guide  <img src="https://logo.clearbit.com/gopivotal.com" display="inline" height="30" />
 ===========
 
-This document is a series of guidelines which are meant to help KB authors generate better and more effective content. 
+This document is a series of guidelines which are meant to help KB authors generate better and more effective content. You can find all the necessary information needed to write a KB article here. Discussed also are the process we follow to publish an article.
 
 
 Overview
@@ -37,12 +37,12 @@ When coding and testing activities for the story have been completed, and the au
 
 |Template|Definition|Example|
 |---|---|---|
-|Break-fix Guide|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod|Training Guide|
-|[Checklist](#suggest-an-article)|Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat|Training Guide|
-|[Concepts](#article-review) |Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation|Training Guide|
-|[How To](#suggest-an-article)|Iipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor|Training Guide|
-|[Tools](#article-review) |Sure you mark the article as being a draft until it has been approved by another support engineer|Training Guide|
-|[Troubleshooting Guide](#create-an-article)|Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian|Training Guide|
+|Break-fix Guide|Articles concerning any bugs and fixes, providing a solution for a known error, falls under the Break-fix category.|Training Guide|
+|[Checklist](#suggest-an-article)|When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.|Training Guide|
+|[Concepts](#article-review) |Concepts template applies to any article that is meant for explaining the workings and the theory of a product.|Training Guide|
+|[How To](#suggest-an-article)|Choose this template when the article talks about performing a task i.e. "How to" do the task.|Training Guide|
+|[Tools](#article-review) |To introduce any new or updated tool concerning the product or the usage of it.|Training Guide|
+|[Troubleshooting Guide](#create-an-article)|A guide to provide troubleshooting steps.|Training Guide|
 
 Workflow
 ------------------------------
