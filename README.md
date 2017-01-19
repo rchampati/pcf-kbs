@@ -1,7 +1,7 @@
 Pivotal Knowledge Base Guide  <img src="https://logo.clearbit.com/gopivotal.com" display="inline" height="30" />
 ===========
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+This document is a series of guidelines which are meant to help KB authors generate better and more effective content. 
 
 
 Overview
@@ -103,11 +103,11 @@ This might be done in an activity with other team members, such as story mapping
 |Repository|Components||
 |---|---|---|
 |Configuration|Networking, Storage |Knowledge Base|
-|CAPI|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
+|[CAPI](https://github.com/pivotal-gss/pcf-capi-kb)|Cloud Controller, CC Bridge, Stager, TPS|Knowledge Base|
 |Buildpacks|Java, NodeJS , PHP, Python, Ruby, Static|Knowledge Base|
 |[Diego](https://github.com/pivotal-gss/pcf-deigo-kb)|Loggregator, Brain, BBS, Cell, Garden|Knowledge Base|
 |Iaas/Platforms|Azure, Google Compute Platform, Openstack, VSphere|Knowledge Base|
-|Pivotal Cloud Foundry|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
+|[Pivotal Cloud Foundry](https://github.com/pivotal-gss/pcf-pivotal-cloud-foundry-kb)|Apps Manager, Ops Manager, Push Notifications|Knowledge Base|
 |Security|Best Practices, CVEs|Knowledge Base|
 |Services|RabbitMQ, Redis, CFOps |Knowledge Base|
 
@@ -117,7 +117,7 @@ This might be done in an activity with other team members, such as story mapping
 |---|---|---|
 |Gemfire|Networking, Storage|Knowledge Base|
 |Greenplum|Cloud Controller, TPS|Knowledge Base|
-|HAWK|Cloud Controller, TPS|Knowledge Base|
+|HAWQ|Cloud Controller, TPS|Knowledge Base|
 
 
 Roles
