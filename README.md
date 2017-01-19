@@ -37,7 +37,7 @@ When coding and testing activities for the story have been completed, and the au
 
 |Template|Definition|Example|
 |---|---|---|
-|[Break-fix Guide](#suggest-an-article)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod|Training Guide|
+|[Break-fix Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/break-fix)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod|Training Guide|
 |[Checklist](#suggest-an-article)|Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat|Training Guide|
 |[Concepts](#article-review) |Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation|Training Guide|
 |[How To](#suggest-an-article)|Iipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor|Training Guide|
