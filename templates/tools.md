@@ -1,5 +1,6 @@
-*The text marked with bold are the instructions for each section of the article. 
-Purpose of template: Use this Template to introduce any new or updated tool concerning the product or the usage of it.*
+*The text marked with bold are the instructions for each section of the article.*
+
+*Purpose of template: Use this Template to introduce any new or updated tool concerning the product or the usage of it.*
 
 #Tools Template (Add Product Name)
 
