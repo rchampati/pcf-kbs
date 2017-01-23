@@ -2,7 +2,7 @@
 
 ##Environment 
 
-**Populate the table with the environment specifications where the problem occurred as shown the example below.
+**Populate the table with the environment specifications where the problem occurred as shown the example below.**
 
 Product | Version
 --------|---------
@@ -11,7 +11,7 @@ OS | RHEL 6.x
 	 
 ##Overview
 
-**Provide a brief description of the purpose of the article.
+**Provide a brief description of the purpose of the article.**
 
 The scope of this article is to provide guidance for troubleshooting and performing a root cause analysis (RCA) of a common problem.
 
@@ -23,18 +23,18 @@ For example: In this example, we will provide guidance for troubleshooting and p
  
 ##Symptom (If Applicable)
 
-**Include a description of the symptoms or problem statement as shown in the example below:
+**Include a description of the symptoms or problem statement as shown in the example below:**
 
 When attempting an upgrade from XYZ version 1.2.2 to version 1.2.3, the installation fails with error message “Upgrade failed”.
  
 Checklist
-**If chronological order is unknown, then use bullet points as below:
+**If chronological order is unknown, then use bullet points as below:**
 
 *	
 *	
 *	 
 
-**If chronological is known, then use numbered steps as below:
+**If chronological is known, then use numbered steps as below:**
 
 1.	
 2.	
@@ -42,11 +42,11 @@ Checklist
 
 ##Cause (Recommended)
 
-**Include a description of what caused the problem.  
+**Include a description of what caused the problem.**
 
 ###RCA (Optional, if applicable)
 
-**If the RCA is applicable, write the description.
+**If the RCA is applicable, write the description.**
 
 While upgrading the XYZ version 1.2.2 to version 1.2.3, the backup intermittently stops working because of the following reasons:
 
@@ -57,7 +57,7 @@ While upgrading the XYZ version 1.2.2 to version 1.2.3, the backup intermittentl
 
 ##Resolution
 
-**Use any of the examples below to write the steps to resolve the problem.
+**Use any of the examples below to write the steps to resolve the problem.**
 
 Follow the steps to resolve this issue:
 
@@ -73,12 +73,12 @@ Note: If you are unable to upgrade, using the instruction below try the followin
 
 ##Additional Information (Optional)
 
-**Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article. 
+**Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article.**
 
 ###Internal Comments 
 
-**Section: Include the section that you would like your article to be published in.
+**Section: Include the section that you would like your article to be published in.**
 
-**Notes: Provide any notes that you have for the SME or technical writer.  
+**Notes: Provide any notes that you have for the SME or technical writer.**
 
 
