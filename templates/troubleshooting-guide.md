@@ -1,3 +1,8 @@
+*The text marked bold are the instructions for each section of the article.*
+
+*Purpose of template: A guide to provide troubleshooting steps.*
+
+
 #Troubleshooting Guide Template (Add Product Name)
 
 ##Environment 
