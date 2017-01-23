@@ -1,4 +1,4 @@
-*The text marked with bold are the instructions for each section of the article.*
+*The text marked bold are the instructions for each section of the article.*
 
 *Purpose of template: Concepts template applies to any article that is meant for explaining the workings and the theory of a product.*
 
@@ -6,7 +6,7 @@
 
 ##Environment
 
-**Describe which product(s) the article addresses.**
+**Populate the table with the environment specifications where the problem occurred as shown the example below.**
 
 Product	| Version
 --------|---------
