@@ -32,7 +32,8 @@ For example: In this example, we will provide guidance for troubleshooting and p
 
 When attempting an upgrade from XYZ version 1.2.2 to version 1.2.3, the installation fails with error message “Upgrade failed”.
  
-Checklist
+##Checklist
+
 **If chronological order is unknown, then use bullet points as below:**
 
 *	
