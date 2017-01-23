@@ -1,5 +1,5 @@
 
-#Break Fix Template (add the Product name here)
+#Break Fix Template (Add the Product name here)
 
 ##Environment
 
@@ -62,7 +62,7 @@ Note: If you are unable to upgrade, using the instruction below try the followin
 
 Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article. 
 
-##Internal Comments
+###Internal Comments
 
 Section:
 
