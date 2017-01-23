@@ -62,16 +62,19 @@ Note: If you are unable to upgrade, using the instruction below try the followin
 
 Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article. 
 
+##Internal Comments
+
+Section:
+
+Notes:
+
+###References (Not a part of the template. For the author's help)
+For further help about the KB process, refer to:
+
 *	Read the Installation Guide of XYZ Version 1.2.3 Page 34 for more information.
 *	How To Template
 *	Troubleshooting Guide Template
 *	Guidelines for writing a KB article
 *	Language and Formatting
 *	Review Process 
- 
-##Internal Comments
-
-Section:
-
-Notes:
 
