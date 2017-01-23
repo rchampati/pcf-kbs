@@ -1,3 +1,6 @@
+*The text marked with bold are the instructions for each section of the article.*
+
+*Purpose of template: Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.*
 
 #Break Fix Template (Add the Product name here)
 
