@@ -1,5 +1,6 @@
-*The text marked bold are the instructions for each section of the article. 
-Purpose of template: When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.*
+*The text marked bold are the instructions for each section of the article.*
+
+*Purpose of template: When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.*
 
 #Checklist for (name of the subject)
 
