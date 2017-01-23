@@ -1,4 +1,4 @@
-#How to template (add the Product name)
+#How to template (Add the Product name)
 
 ##Environment
 
