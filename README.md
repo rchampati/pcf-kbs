@@ -37,7 +37,7 @@ When coding and testing activities for the story have been completed, and the au
 
 |Template|Definition|Example|
 |---|---|---|
-|Break-fix Guide|Articles concerning any bugs and fixes, providing a solution for a known error, falls under the Break-fix category.|Training Guide|
+|Break-fix Guide|Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.|Training Guide|
 |[Checklist](#suggest-an-article)|When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.|Training Guide|
 |[Concepts](#article-review) |Concepts template applies to any article that is meant for explaining the workings and the theory of a product.|Training Guide|
 |[How To](#suggest-an-article)|Choose this template when the article talks about performing a task i.e. "How to" do the task.|Training Guide|
