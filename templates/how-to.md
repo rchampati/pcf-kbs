@@ -1,4 +1,4 @@
-*The text marked with bold are the instructions for each section of the article.*
+*The text marked bold are the instructions for each section of the article.*
 
 *Purpose of template: Choose this template when the article talks about performing a task i.e. "How to" do the task.*
 
@@ -6,7 +6,7 @@
 
 ##Environment
 
-**Describe which product(s) the article addresses.**
+**Populate the table with the environment specifications where the problem occurred as shown the example below.**
 
 Product |	Version
 --------|---------
