@@ -1,4 +1,4 @@
-#Troubleshooting Guide template (Add Product Name)
+#Troubleshooting Guide Template (Add Product Name)
 
 ##Environment 
 
@@ -26,9 +26,9 @@ When attempting an upgrade from XYZ version 1.2.2 to version 1.2.3, the installa
 Checklist
 If chronological order is unknown, then use bullet points as below:
 
-•	
-•	
-•	 
+*	
+*	
+*	 
 
 If chronological is known, then use numbered steps as below:
 
@@ -46,10 +46,10 @@ If the RCA is applicable, write the description.
 
 While upgrading the XYZ version 1.2.2 to version 1.2.3, the backup intermittently stops working because of the following reasons:
 
-•	Bullet List
-•	Bullet List
-•	Bullet List
-•	Bullet List
+*	Bullet List
+*	Bullet List
+*	Bullet List
+*	Bullet List
 
 ##Resolution
 
