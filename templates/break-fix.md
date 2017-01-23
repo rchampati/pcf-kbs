@@ -64,8 +64,8 @@ Include additional information such as KB articles, references to the original d
 
 ###Internal Comments
 
-Section:
+Section: Include the section that you would like your article to be published in.
 
-Notes:
+Notes: Provide any notes that you have for the SME or technical writer.
 
 
