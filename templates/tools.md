@@ -27,7 +27,7 @@ OS |	All supported OS
 
 **Describe how to run the tool.**
 
-###Feature Heading
+###Featured Heading
 
 **Explain the feature.**
 
