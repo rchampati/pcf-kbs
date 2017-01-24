@@ -152,10 +152,10 @@ Resources
 
 Bookmarks
 ------------------------------
-- [Pivotal Cloud Foundry Knowledge Base](#overview)
-- [Pivotal Data Knowledge Base](#overview)
-- [Pivotal Documentation](#overview)
-- [Pivotal Support](#overview)
+- [Pivotal Cloud Foundry Knowledge Base](https://discuss.pivotal.io/hc/en-us/categories/200072648-Pivotal-CF-Knowledge-Base)
+- [Pivotal Data Knowledge Base](https://discuss.pivotal.io/hc/en-us)
+- [Pivotal Documentation](https://docs.pivotal.io/)
+- [Pivotal Support](https://support.pivotal.io/)
 - [Pivotal Network](#overview)
 
 Read [CONTRIBUTING.md](<CONTRIBUTING.md>) for more details on contributing
