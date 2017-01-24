@@ -37,12 +37,12 @@ When coding and testing activities for the story have been completed, and the au
 
 |Template|Definition|Example|
 |---|---|---|
-|[Break-fix Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/break-fix.md)|Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.|Training Guide|
-|[Checklist](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/checklist.md)|When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.|Training Guide|
-|[Concepts](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/concepts.md)|Concepts template applies to any article that is meant for explaining the workings and the theory of a product.|Training Guide|
-|[How To](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/how-to.md)|Choose this template when the article talks about performing a task i.e. "How to" do the task.|Training Guide|
-|[Tools](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/tools.md)|To introduce any new or updated tool concerning the product or the usage of it.|Training Guide|
-|[Troubleshooting Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/troubleshooting-guide.md)|A guide to provide troubleshooting steps.|Training Guide|
+|[Break-fix Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/break-fix.md)|Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.|[Smoke Test Errand](https://discuss.pivotal.io/hc/en-us/articles/236388567)|
+|[Checklist](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/checklist.md)|When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.|[GemFire Kernels and JDKs](https://discuss.pivotal.io/hc/en-us/articles/221345988)|
+|[Concepts](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/concepts.md)|Concepts template applies to any article that is meant for explaining the workings and the theory of a product.|[vSphere IaaS Operations](https://discuss.pivotal.io/hc/en-us/articles/221609547)|
+|[How To](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/how-to.md)|Choose this template when the article talks about performing a task i.e. "How to" do the task.|[BOSH SSL Certificate](https://discuss.pivotal.io/hc/en-us/articles/115000453368)|
+|[Tools](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/tools.md)|To introduce any new or updated tool concerning the product or the usage of it.|[Greenplum Backup Time Collector](https://discuss.pivotal.io/hc/en-us/articles/218274158)|
+|[Troubleshooting Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/troubleshooting-guide.md)|A guide to provide troubleshooting steps.|[CFOPs Support](https://discuss.pivotal.io/hc/en-us/articles/226220147)|
 
 Workflow
 ------------------------------
