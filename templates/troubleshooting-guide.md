@@ -83,8 +83,6 @@ Note: If you are unable to upgrade, using the instruction below try the followin
 
 ###Internal Comments 
 
-Section: **Include the section that you would like your article to be published in.**
-
 Notes: **Provide any notes that you have for the SME or technical writer.**
 
 
