@@ -62,8 +62,6 @@ Recovers a primary or mirror segment instance that has been marked as down (if m
 
 ###Internal Comments 
 
-Section: **Include the section that you would like your article to be published in.**
-
 Notes: **Provide any notes that you have for the SME or technical writer.**
  
  
