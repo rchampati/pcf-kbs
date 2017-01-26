@@ -73,8 +73,6 @@ ABCD 1.0.0	Names of the developers	February 29, 2016	 First Version created.
 
 ###Internal Comments
 
-Section: **Include the section that you would like your article to be published in.**
-
 Notes: **Provide any notes that you have for the SME or technical writer.**
  	 	 	 
 
