@@ -47,8 +47,6 @@ Follow the steps to resolve this issue:
 
 ###Internal Comments 
 
-Section: **Include the section that you would like your article to be published in.**
-
 Notes: **Provide any notes that you have for the SME or technical writer.**
 
 
