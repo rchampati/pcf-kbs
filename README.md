@@ -83,17 +83,18 @@ They are added to the Icebox, are unestimated, or if they have points to estimat
     git flow feature start <your feature>
 
 ### Article Review
-There are no specific requirements as to which section headers you should include in an article.  
+
+The article would be reviewed by another Subject Matter Expert (SME) to verify the credibility of the content, for instance:
 
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
 - Your workflow only uses Post Functions, Validators, and Conditions which are provided by Atlassian (not any which are provided by add-ons);
 
 ### Publish Article
 
- Every KB article may have a different set of headers that are appropriate for it.
+ Once an article is reviewed, it will go through a final check by the KM team and then be publsihed. 
 
- - You will only be able to switch to Simplified Workflow if:
- - There is only one project being viewed by your board (to check this, look at the board's filter);
+ - For publishing the article, the KM team would merge the pull request created with the original fork and save the changes.
+ - The article would now be ready to be published.
 
 ## Knowledge Base Topics
 This might be done in an activity with other team members, such as story mapping, specification workshops
