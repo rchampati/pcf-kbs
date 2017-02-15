@@ -1,0 +1,1 @@
+default apps manager page
