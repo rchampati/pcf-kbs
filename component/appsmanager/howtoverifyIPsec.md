@@ -18,11 +18,11 @@ Users are having excessive loss of memory.
 
 **Resolution**
 
-To verify that IPsec works between two hosts, you can check that traffic is encrypted in the deployment with ```tcpdump```, perform the ping test, and check the logs with the steps below.
+To verify that IPsec works between two hosts, you can check that traffic is encrypted in the deployment with ``tcpdump``, perform the ping test, and check the logs with the steps below.
 
-1. Check traffic encryption and perform the ping test. Select two hosts in your deployment with IPsec enabled and note their IP addresses. These are referenced below as IP-ADDRESS-1 and IP-ADDRESS-2.
-i. SSH into IP-ADDRESS-1.
-$ ssh IP-ADDRESS-1
+1. Check traffic encryption and perform the ping test. Select two hosts in your deployment with IPsec enabled and note their IP addresses. These are referenced below as ``IP-ADDRESS-1`` and ``IP-ADDRESS-2``.
+..1. SSH into IP-ADDRESS-1.
+``$ ssh IP-ADDRESS-1``
 On the first host, run the following, and allow it to continue running.
 $ tcpdump host IP-ADDRESS-2
 From a separate command line, run the following:
