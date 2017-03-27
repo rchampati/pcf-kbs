@@ -28,73 +28,81 @@ To use the `cfdot` command-line tool, you must either:
 
 1. Enter the following command to run the `setup` script:
 
-```
-$ bosh ssh <DIEGO_JOB>/<INDEX>
-$ source /var/vcap/jobs/cfdot/bin/setup
-```
+  ```
+  $ bosh ssh <DIEGO_JOB>/<INDEX>
+  $ source /var/vcap/jobs/cfdot/bin/setup
+  ```
 
 The `setup` script does three things:
 
-* Exports environment variables to target the BBS API in the deployment
-* Puts the `cfdot` binary on the `PATH`
-* Puts a `jq` binary on the `PATH`
+  * Exports environment variables to target the BBS API in the deployment
+  * Puts the `cfdot` binary on the `PATH`
+  * Puts a `jq` binary on the `PATH`
 
 2. Perform the following step from a GOPATH to install the Diego BBS client library. For example, from the `diego-release` directory, run the following commands:
 
-```
-$ go get code.cloudfoundry.org/cfdot
-$ cd src/code.cloudfoundry.org/cfdot
-```
+  ```
+  $ go get code.cloudfoundry.org/cfdot
+  $ cd src/code.cloudfoundry.org/cfdot
+  ```
 
 3. Build `cfdot` by running the command that corresponds to your operating system:
 
-| If your OS is...   | then enter...           |
-|--------------------|-------------------------|
-| Mac                | GOOS=darwin go build .  |
-| Linux              | GOOS=linux go build .   |
-| Windows            | GOOS=windows go build . |
+  | If your OS is...   | then enter...               |
+  |--------------------|-----------------------------|
+  | Mac                | `$ GOOS=darwin go build .`  |
+  | Linux              | `$ GOOS=linux go build .`   |
+  | Windows            | `$ GOOS=windows go build .` |
 
-**cfdot Commands**
+**cfdot Command Examples**
 
-Use `cfdot` to make requests to Diego using the BBS API. For example, to count the total number of desired app instances, enter the following command:
+Use `cfdot` to make requests to Diego using the BBS API.
 
-```
-$ cfdot desired-lrp-scheduling-infos | jq '.instances' | jq -s 'add'
-568
-```
+* To count the total number of desired app instances, enter the following command:
 
-To show the instance counts of all apps by state, enter the following command:
+  ```
+  $ cfdot desired-lrp-scheduling-infos | jq '.instances' | jq -s 'add'
+  ```
 
-```
-$ cfdot actual-lrp-groups | jq '.instance, .evacuating | values' | jq -s -r 'group_by(.state)[] | .[0].state + ": " + (length | tostring)'
-CRASHED: 36
-RUNNING: 531
-UNCLAIMED: 1
-```
+This command outputs a number, such as `568`.
 
-Other supported `cfdot` commands are listed below:
+* To show the instance counts of all apps by state, enter the following command:
 
-```
-$ cfdot --help
-A command-line tool to interact with a Cloud Foundry Diego deployment
+  ```
+  $ cfdot actual-lrp-groups | jq '.instance, .evacuating | values' | jq -s -r 'group_by(.state)[] | .[0].state + ": " + (length | tostring)'
+  ```
 
-Usage:
-  cfdot [command]
+This command outputs a list of app states and the number of apps that are currently in those states. For example:
 
-Available Commands:
-  actual-lrp-groups            List actual LRP groups
-  actual-lrp-groups-for-guid   List actual LRP groups for a process guid
-  create-desired-lrp           Create a desired LRP
-  delete-desired-lrp           Delete a desired LRP
-  delete-task                  Delete a Task
-  desired-lrp                  Show the specified desired LRP
-  desired-lrp-scheduling-infos List desired LRP scheduling infos
-  desired-lrps                 List desired LRPs
-  domains                      List domains
-  retire-actual-lrp            Retire actual LRP by index and process guid
-  set-domain                   Set domain
-  task                         Display task
-  update-desired-lrp           Update a desired LRP
+  ```
+  CRASHED: 36
+  RUNNING: 531
+  UNCLAIMED: 1
+  ```
 
-Use "cfdot [command] --help" for more information about a command.
-```
+* Other supported `cfdot` commands are listed below:
+
+  ```
+  $ cfdot --help
+  A command-line tool to interact with a Cloud Foundry Diego deployment
+
+  Usage:
+    cfdot [command]
+
+  Available Commands:
+    actual-lrp-groups            List actual LRP groups
+    actual-lrp-groups-for-guid   List actual LRP groups for a process guid
+    create-desired-lrp           Create a desired LRP
+    delete-desired-lrp           Delete a desired LRP
+    delete-task                  Delete a Task
+    desired-lrp                  Show the specified desired LRP
+    desired-lrp-scheduling-infos List desired LRP scheduling infos
+    desired-lrps                 List desired LRPs
+    domains                      List domains
+    retire-actual-lrp            Retire actual LRP by index and process guid
+    set-domain                   Set domain
+    task                         Display task
+    update-desired-lrp           Update a desired LRP
+
+  Use "cfdot [command] --help" for more information about a command.
+  ```
