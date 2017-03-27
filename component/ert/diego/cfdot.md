@@ -28,31 +28,31 @@ To use the `cfdot` command-line tool, you must either:
 
 1. Enter the following command to run the `setup` script:
 
-  ```
-  $ bosh ssh <DIEGO_JOB>/<INDEX>
-  $ source /var/vcap/jobs/cfdot/bin/setup
-  ```
+    ```
+    $ bosh ssh <DIEGO_JOB>/<INDEX>
+    $ source /var/vcap/jobs/cfdot/bin/setup
+    ```
 
-The `setup` script does three things:
+    The `setup` script does three things:
 
-  * Exports environment variables to target the BBS API in the deployment
-  * Puts the `cfdot` binary on the `PATH`
-  * Puts a `jq` binary on the `PATH`
+      * Exports environment variables to target the BBS API in the deployment
+      * Puts the `cfdot` binary on the `PATH`
+      * Puts a `jq` binary on the `PATH`
 
 2. Perform the following step from a GOPATH to install the Diego BBS client library. For example, from the `diego-release` directory, run the following commands:
 
-  ```
-  $ go get code.cloudfoundry.org/cfdot
-  $ cd src/code.cloudfoundry.org/cfdot
-  ```
+    ```
+    $ go get code.cloudfoundry.org/cfdot
+    $ cd src/code.cloudfoundry.org/cfdot
+    ```
 
 3. Build `cfdot` by running the command that corresponds to your operating system:
 
-  | If your OS is...   | then enter...               |
-  |--------------------|-----------------------------|
-  | Mac                | `$ GOOS=darwin go build .`  |
-  | Linux              | `$ GOOS=linux go build .`   |
-  | Windows            | `$ GOOS=windows go build .` |
+    | If your OS is...   | then enter...               |
+    |--------------------|-----------------------------|
+    | Mac                | `$ GOOS=darwin go build .`  |
+    | Linux              | `$ GOOS=linux go build .`   |
+    | Windows            | `$ GOOS=windows go build .` |
 
 **cfdot Command Examples**
 
@@ -72,13 +72,13 @@ This command outputs a number, such as `568`.
   $ cfdot actual-lrp-groups | jq '.instance, .evacuating | values' | jq -s -r 'group_by(.state)[] | .[0].state + ": " + (length | tostring)'
   ```
 
-This command outputs a list of app states and the number of apps that are currently in those states. For example:
+  This command outputs a list of app states and the number of apps that are currently in those states. For example:
 
-  ```
-  CRASHED: 36
-  RUNNING: 531
-  UNCLAIMED: 1
-  ```
+    ```
+    CRASHED: 36
+    RUNNING: 531
+    UNCLAIMED: 1
+    ```
 
 * Other supported `cfdot` commands are listed below:
 
