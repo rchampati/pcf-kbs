@@ -64,7 +64,7 @@ Use `cfdot` to make requests to Diego using the BBS API.
   $ cfdot desired-lrp-scheduling-infos | jq '.instances' | jq -s 'add'
   ```
 
-This command outputs a number, such as `568`.
+  This command outputs a number, such as `568`.
 
 * To show the instance counts of all apps by state, enter the following command:
 
@@ -72,7 +72,7 @@ This command outputs a number, such as `568`.
   $ cfdot actual-lrp-groups | jq '.instance, .evacuating | values' | jq -s -r 'group_by(.state)[] | .[0].state + ": " + (length | tostring)'
   ```
 
-  This command outputs a list of app states and the number of apps that are currently in those states. For example:
+  This command outputs a list of app states and the number of apps that are currently in those states, for example:
 
     ```
     CRASHED: 36
