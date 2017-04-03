@@ -34,7 +34,7 @@ Use the cfdot CLI tool to investigate the following issues:
     $ bosh ssh DIEGO_JOB/INDEX
     ```
 
-    Where:
+    Replace the following items with values from your deployment:
 
     * DIEGO_JOB is the name of the Diego virtual machine (VM), such as `diego_brain` or `diego_cell`
     * INDEX is the number assigned to that particular VM
@@ -55,32 +55,20 @@ Use the cfdot CLI tool to investigate the following issues:
 
     Because Diego VM instances are frequently recreated in a typical deployment, you need to run the script each time you log into a Diego VM.
 
-3. Run `cf dot --help` for the most current list of supported commands.
-
-    ```
-    $ cfdot --help
-    A command-line tool to interact with a Cloud Foundry Diego deployment
-
-    Usage:
-      cfdot [command]
-
-    Available Commands:
-      actual-lrp-groups            List actual LRP groups
-      actual-lrp-groups-for-guid   List actual LRP groups for a process guid
-      create-desired-lrp           Create a desired LRP
-      delete-desired-lrp           Delete a desired LRP
-      delete-task                  Delete a Task
-      desired-lrp                  Show the specified desired LRP
-      desired-lrp-scheduling-infos List desired LRP scheduling infos
-      desired-lrps                 List desired LRPs
-      domains                      List domains
-      retire-actual-lrp            Retire actual LRP by index and process guid
-      set-domain                   Set domain
-      task                         Display task
-      update-desired-lrp           Update a desired LRP
-
-    Use "cfdot [command] --help" for more information about a command.
-    ```
+3. Run `cf dot --help` for the most current list of supported commands. The available commands include the following:
+    * `actual-lrp-groups`: List actual LRP groups
+    * `actual-lrp-groups-for-guid1`:  List actual LRP groups for a process guid
+    * `create-desired-lrp`: Create a desired LRP
+    * `delete-desired-lrp`: Delete a desired LRP
+    * `delete-task`: Delete a Task
+    * `desired-lrp`: Show the specified desired LRP
+    * `desired-lrp-scheduling-infos`: List desired LRP scheduling infos
+    * `desired-lrps`: List desired LRPs
+    * `domains`: List domains
+    * `retire-actual-lrp`: Retire actual LRP by index and process guid
+    * `set-domain`: Set domain
+    * `task`: Display task
+    * `update-desired-lrp`: Update a desired LRP
 
 4. Enter one of the cfdot commands above. cfdot will print out all the information the BBS has about the tasks, LRPs, or groups you specified. You can pipe the output to `jq` or another line-based UNIX tool
 to tailor your results or make them easier to read.
@@ -107,3 +95,4 @@ to tailor your results or make them easier to read.
 
     ```
     $ cfdot actual-lrp-groups | jq '.instance, .evacuating | values' | jq -s -r 'group_by(.state)[] | .[0].state + ": " + (length | tostring)'
+    ```
