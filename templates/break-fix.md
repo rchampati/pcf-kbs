@@ -1,26 +1,26 @@
-*The text marked with bold are the instructions for each section of the article.*
+*The text in italics serves as the instructions for each section of the article.*
 
 *Purpose of template: Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.*
 
-#Break Fix Template (Add the Product name here)
+# Break Fix Template (Add the Product name here)
 
-##Environment
+## Environment
 
-**Populate the table with the environment specifications where the problem occurred as shown the example below.**
+*Populate the table with the environment specifications where the problem occurred as shown the example below.*
 
 Product | Version
 ------- | --------
 Pivotal Greenplum | (GPDB)	4.3.x
 OS | RHEL 6.x
 	 
-##Symptom
+## Symptom
 
-**Include a description of the symptoms or problem statement as shown in the example below:**
+*Include a description of the symptoms or problem statement as shown in the example below:*
 
 When attempting an upgrade from XYZ version 1.2.2 to version 1.2.3, the installation fails with error message “Upgrade failed”.
 
 Error Message:
-**If applicable, copy and paste the error message.**
+*If applicable, copy and paste the error message.*
 Note: These log entries use a volume named 12345678-abcdefg0 as an example:
 
 ```
@@ -32,13 +32,13 @@ YYYY-04-01T14:37:28.081Z: [APDCorrelator] 9553899639us: [vob.storage.apd.timeout
 YYYY-04-01T14:37:28.081Z: [APDCorrelator] 9554275221us: [esx.problem.storage.apd.timeout] Device or filesystem with identifier [12345678-abcdefg0] has entered the All Paths Down Timeout state after being in the All Paths Down state for 140 seconds. I/Os will now be fast failed
 ``` 
 
-##Cause (Recommended if known)
+## Cause (Recommended if known)
 
-**Include a description of what caused the problem.**
+*Include a description of what caused the problem.*
 
-###RCA (Optional, if applicable)
+**RCA (Optional, if applicable)**
 
-**If the RCA is applicable, write the description.**
+*If the RCA is applicable, write the description.*
 
 While upgrading the XYZ version 1.2.2 to version 1.2.3, the backup intermittently stops working because of the following reasons:
 
@@ -47,9 +47,9 @@ While upgrading the XYZ version 1.2.2 to version 1.2.3, the backup intermittentl
 *	Bullet List
 *	Bullet List
 
-##Resolution
+## Resolution
 
-**Use any of the examples below to write the steps to resolve the problem.**
+*Use any of the examples below to write the steps to resolve the problem.*
 
 Follow the steps to resolve this issue:
 
@@ -63,12 +63,12 @@ Note: If you are unable to upgrade, using the instruction below try the followin
 2.	Numbered List
 3.	Numbered List
 
-##Additional Information (Optional)
+## Additional Information (Optional)
 
-**Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article.**
+*Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped documenting this article.*
 
-###Internal Comments
+**Internal Comments**
 
-Notes: **Provide any notes that you have for the SME or technical writer.**
+Notes: *Provide any notes that you have for the SME or technical writer.*
 
 
