@@ -1,68 +1,68 @@
-*The text marked bold are the instructions for each section of the article.*
+*The text in italics serves as the instructions for each section of the article.*
 
 *Purpose of template: Concepts template applies to any article that is meant for explaining the workings and the theory of a product.*
 
-#Concept Template
+# Concept Template
 
-##Environment
+## Environment
 
-**Populate the table with the environment specifications where the problem occurred as shown the example below.**
+*Populate the table with the environment specifications where the problem occurred as shown the example below.*
 
 Product	| Version
 --------|---------
 Pivotal Gemfire |	6.6.x - 8.2.x
 OS | All supported OS
 
-##Introduction or Synopsis
+## *Introduction or Synopsis*
 
-**Introduce the concept to the users. Use either Introduction or Synopsis.**
+*Introduce the concept to the users. Use either Introduction or Synopsis.*
 
-**Use Introduction if you are explaining a broader concept like what are the database tables or what are the schema objects?**
+*Use Introduction if you are explaining a broader concept like what are the database tables or what are the schema objects?*
 
-**Use Synopsis for a narrow topic, like a code or a unique concept, like gpcheckcat, gprecoverseg.**
+*Use Synopsis for a narrow topic, like a code or a unique concept, like gpcheckcat, gprecoverseg.*
 
-**Here are examples:**
+*Here are examples:*
 
-##Introduction 
+## Introduction 
 
 (Intro to Schema Objects)
 A database schema is a logical container for data structures, called schema objects. Examples of schema objects are tables and indexes. Schema objects are created and manipulated with SQL.
 
-##Synopsis
+## Synopsis
 
 (Synopsis of gprecoverseg)
 Recovers a primary or mirror segment instance that has been marked as down (if mirroring is enabled).
 
-##Description
+## Description
 
-**Describe the concept in detail.**
+*Describe the concept in detail.*
 
-###Feature Heading
+ **Feature Heading**
 
-**Explain the feature.**
+*Explain the feature.*
 
-**Unordered list**
+Unordered list
 
 *	Bullet 1
 *	Buller 2
 
-**Ordered list or Procedural Steps:**
+Ordered list or Procedural Steps:
 
 1.	Numbered List
 2.	Numbered List
 3.	Numbered List
 
-##Options (Optional)
+## Options (Optional)
 
-**Describe the optional steps or codes to run.**
+*Describe the optional steps or codes to run.*
 
-##Additional Information (Optional)
+## Additional Information (Optional)
 
-**Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped in documenting this article.**  
+*Include additional information such as KB articles, references to the original documentation (e.g. Admin Guide or Installation Guide) or any other resource that helped in documenting this article.*
 
-###Internal Comments 
+**Internal Comments**
 
-Notes: **Provide any notes that you have for the SME or technical writer.**
+Notes: *Provide any notes that you have for the SME or technical writer.*
  
  
 
