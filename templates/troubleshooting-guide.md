@@ -1,4 +1,4 @@
-*The text marked italics is the instruction for each section of the article.*
+*The text in italics serves as the instructions for each section of the article.*
 
 *Purpose of template: A guide to provide troubleshooting steps.*
 
