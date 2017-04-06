@@ -1,11 +1,9 @@
 ---
-title: How to use CF Diego Operator Toolkit
+title: How to use cfdot to investigate Diego cells
 template: how-to
 id: 115004883487 
 locale: en-us
 ---
-
-# How to use CF Diego Operator Toolkit
 
 **Environment**
 
@@ -13,7 +11,7 @@ Pivotal Cloud Foundry
 
 **Purpose**
 
-This topic provides instructions for installing and using the cfdot command-line interface (CLI) tool to interact with Diego in your Pivotal Cloud Foundry (PCF) 1.10 deployment.
+This topic provides instructions for installing and using the CF Diego Operator Toolkit (cfdot) Command Line Interface (CLI) tool to interact with Diego cells in your Pivotal Cloud Foundry (PCF) 1.10 deployment.
 
 This CLI tool communicates directly with the Bulletin Board System (BBS) API to provide information about the Diego cells in your deployment.
 The cfdot CLI outputs a stream of JSON values that you can process with `jq`, `bash`, and other line-based UNIX tools.
@@ -28,7 +26,7 @@ Use the cfdot CLI tool to investigate the following issues:
 
 **Procedure**
 
-1. SSH into the Diego Cell VM:
+1. SSH into the Diego cell:
 
     ```
     $ bosh ssh DIEGO_JOB/INDEX
@@ -36,7 +34,7 @@ Use the cfdot CLI tool to investigate the following issues:
 
     Replace the following items with values from your deployment:
 
-    * DIEGO_JOB is the name of the Diego virtual machine (VM), such as `diego_brain` or `diego_cell`
+    * DIEGO_JOB is the name of the Diego cell, such as `diego_brain` or `diego_cell`
     * INDEX is the number assigned to that particular VM
 
     For example, `$ bosh ssh diego_cell/0`
@@ -53,11 +51,11 @@ Use the cfdot CLI tool to investigate the following issues:
       * Puts the `cfdot` binary on the `PATH`
       * Puts a `jq` binary on the `PATH`
 
-    Because Diego VM instances are frequently recreated in a typical deployment, you need to run the script each time you log into a Diego VM.
+    Because Diego cells are frequently recreated in a typical deployment, you need to run the script each time you log into a Diego cell.
 
 3. Run `cf dot --help` for the most current list of supported commands. The available commands include the following:
     * `actual-lrp-groups`: List actual LRP groups
-    * `actual-lrp-groups-for-guid1`:  List actual LRP groups for a process guid
+    * `actual-lrp-groups-for-guid`:  List actual LRP groups for a process GUID
     * `create-desired-lrp`: Create a desired LRP
     * `delete-desired-lrp`: Delete a desired LRP
     * `delete-task`: Delete a Task
@@ -65,7 +63,7 @@ Use the cfdot CLI tool to investigate the following issues:
     * `desired-lrp-scheduling-infos`: List desired LRP scheduling infos
     * `desired-lrps`: List desired LRPs
     * `domains`: List domains
-    * `retire-actual-lrp`: Retire actual LRP by index and process guid
+    * `retire-actual-lrp`: Retire actual LRP by index and process GUID
     * `set-domain`: Set domain
     * `task`: Display task
     * `update-desired-lrp`: Update a desired LRP
@@ -85,7 +83,7 @@ to tailor your results or make them easier to read.
     $ cfdot desired-lrp GUID | jq .
     ```
 
-    * The following command counts the total number of desired app instances:
+    * The following command counts the total number of desired application instances:
 
     ```
     $ cfdot desired-lrp-scheduling-infos | jq '.instances' | jq -s 'add'
