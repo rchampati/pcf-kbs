@@ -11,9 +11,9 @@ Overview
     - [Criteria for an article](#criteria-for-an-article)
 -   [Workflow](#workflow)
     - [Overview](#overview)
-    - [Suggest an article](#suggest-an-article)
-    - [Create an article](#create-an-article)
-    - [Deliver an article](#deliver-an-article)
+    - [Suggest article](#suggest-an-idea-or-article-update)
+    - [Create article](#create-article)
+    - [Submit article](#submit-article)
     - [Article review](#article-review)    
 -   [Roles](#roles)
     - [Contributor](#contributor)
@@ -56,7 +56,7 @@ Write stories. The customer, project or product manager (PM), or product owner (
 - There is only one project being viewed by your board (to check this, look at the board's filter); and
 - That project uses a JIRA workflow scheme which only has one workflow for all issue types; and
 
-### Create/Edit article
+### Create article
 Mock-ups, assets, or other examples may be attached to stories and/or epics. Stories are in the unscheduled state
 
 - Review the Knowledge Base Topics
