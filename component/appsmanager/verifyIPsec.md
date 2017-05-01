@@ -9,12 +9,13 @@ locale: en-us
 **Environment**
 
 Pivotal Cloud Foundry
-*Ops Manager*
+
+Ops Manager
 
 **Purpose**
 
 This topic provides instructions to verify that strongSwan-based IPsec works with your Pivotal Cloud Foundry (PCF) deployment and general recommendations for troubleshooting IPsec
-Users are having excessive loss of memory.
+Users are having excessive memory loss.
 
 **Resolution**
 
