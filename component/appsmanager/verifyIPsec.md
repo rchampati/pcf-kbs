@@ -5,12 +5,11 @@ id: 115004494368
 locale: en-us
 ---
 
-# How to verify that IPsec works with PCF
 
 **Environment**
 
-Pivotal Cloud Foundry 
-Ops Manager
+Pivotal Cloud Foundry
+*Ops Manager*
 
 **Purpose**
 
