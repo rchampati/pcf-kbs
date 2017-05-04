@@ -9,9 +9,6 @@ id:
 locale: en-us
 ---
 
-
-# Break Fix Template (Add the Product name here)
-
 ## Environment
 
 *Populate the table with the environment specifications where the problem occurred as shown the example below.*
