@@ -2,6 +2,14 @@
 
 *Purpose of template: Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.*
 
+---
+title: Name of the article
+template: Break-fix
+id: 
+locale: en-us
+---
+
+
 # Break Fix Template (Add the Product name here)
 
 ## Environment
