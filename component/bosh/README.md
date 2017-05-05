@@ -1,5 +1,3 @@
-Copy and paste the following template from line 3 to 17 and start writing:
-
 ---
 title: modify title
 template: how-to
