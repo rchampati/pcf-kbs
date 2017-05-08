@@ -1,13 +1,40 @@
 Pivotal Knowledge Base Guide  <img src="https://logo.clearbit.com/gopivotal.com" display="inline" height="30" />
 ===========
 
-This document is a series of guidelines which are meant to help KB authors generate better and more effective content. You can find all the necessary information needed to write a KB article here. Discussed also are the process we follow to publish an article.
+### Introduction to the KB article
+
+The Knowledge Base (KB) is a customer’s best friend during the “help me help myself” phase of exploring your product. Customers and Pivotal Support Engineers read the KB articles to solve their problems. Keep your feet on customer's shoes when you are writing the KB article.
+
+Your KB article should capture actionable steps to help them solve their problems and not aloof them from the recurring issues. The article should assist them to gather information about the background and should include URLs to Documentation or other resources if they want to learn more about the product.
+
+### KCS
+
+Knowledge Centered Support (KCS) is a method where you solve the problem once and reuse the resolution multiple times.
+
+Read more in [Inside Pivotal KCS Page](http://https://sites.google.com/a/pivotal.io/inside-pivotal/departments/pivotal-support/Knowledge-Centered-Support/knowledge-management).
+
+### Write a KB Article
+
+Anyone at Pivotal can write a Knowledge Base article. If you have information that can help our customers troubleshoot by themselves and resolve their problems, help us capture it by writing a KB. 
+
+Follow the simple steps below to write a KB article in Github. 
+1. Search the Knowledge Base and Documentation to ensure what you want to write is not already there. 
+2. Check the Product Knowledge Base in detail. For example, take a look at Pivotal Cloud Foundry Knowledge Base if you are writing a PCF article.
+3. Navigate to the [KB repo in Github].
+4. Choose a template based on the document type.
+5. Under "components," choose the right folder based on the ERT product.
+6. Create a new ".md" file. You can use the template from step 4.
+7. Leave the "ID" blank.
+8. Fill out the article following the instructions in the template.
+9. Submit a PR to the Knowledge Management Team. Send a message to GSS KM or ping in this Slack channel #gss-platform-kbs to let them know. The KM team will merge to the master and the KB will be updated in the knowledge base.
+10. Log into the [Agent Dashboard] using your OKTA credentials.
 
 
-Overview
+
+<!--- Overview
 ------------------
 
--   [Getting Started](#getting-started)
+<!----   [Getting Started](#getting-started)
     - [Criteria for an article](#criteria-for-an-article)
 -   [Workflow](#workflow)
     - [Overview](#overview)
@@ -28,14 +55,14 @@ Overview
     - [Glossary](#glossary)
     - [Roadmap](#roadmap)
 
-Getting Started
+<!--- Getting Started
 ------------------------------
 
-### Criteria for an article
+<!--- ### Criteria for an article
 
-When coding and testing activities for the story have been completed, and the automated tests for it have all passed, the developer(s) click the Finish button (or possibly their commit message does this via Tracker’s SCM integration.
+<!--- When coding and testing activities for the story have been completed, and the automated tests for it have all passed, the developer(s) click the Finish button (or possibly their commit message does this via Tracker’s SCM integration.
 
-|Template|Definition|Example|
+<!---|Template|Definition|Example|
 |---|---|---|
 |[Break-fix Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/break-fix.md)|Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.|[Smoke Test Errand](https://discuss.pivotal.io/hc/en-us/articles/236388567)|
 |[Checklist](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/checklist.md)|When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.|[GemFire Kernels and JDKs](https://discuss.pivotal.io/hc/en-us/articles/221345988)|
@@ -44,10 +71,10 @@ When coding and testing activities for the story have been completed, and the au
 |[Tools](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/tools.md)|To introduce any new or updated tool concerning the product or the usage of it.|[Greenplum Backup Time Collector](https://discuss.pivotal.io/hc/en-us/articles/218274158)|
 |[Troubleshooting Guide](https://github.com/pivotal-gss/pcf-kb-process/blob/master/templates/troubleshooting-guide.md)|A guide to provide troubleshooting steps.|[CFOPs Support](https://discuss.pivotal.io/hc/en-us/articles/226220147)|
 
-Workflow
+<!---Workflow
 ------------------------------
 
-<img src="img/workflow.png?" display="inline" />
+<!---<img src="img/workflow.png?" display="inline" />
 
 ### Suggest an idea or Article Update
 Write stories. The customer, project or product manager (PM), or product owner (PO) adds new feature stories.
@@ -160,4 +187,4 @@ Bookmarks
 - [Pivotal Network](#overview)
 
 Read [CONTRIBUTING.md](<CONTRIBUTING.md>) for more details on contributing
-documentation improvements.
+documentation improvements. 
