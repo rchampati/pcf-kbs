@@ -1,7 +1,9 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: When performing a task that requires certain things to be pre-available, use the Checklist template to specify those requirements.*
-
+---
+title: Name of the article
+template: Checklist
+id: 
+locale: en-us
+---
 # Checklist for (name of the subject)
 
 ## Environment
