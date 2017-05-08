@@ -1,7 +1,3 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: Articles concerning any bugs and fixes, providing a solution for an error, falls under the Break-fix category.*
-
 ---
 title: Name of the article
 template: Break-fix
