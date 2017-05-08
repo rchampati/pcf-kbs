@@ -1,8 +1,9 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: Use this Template to introduce any new or updated tool concerning the product or the usage of it.*
-
-# Tools Template (Add Product Name)
+---
+title: Name of the article
+template: Tools
+id: 
+locale: en-us
+---
 
 ## Environment
 
