@@ -1,6 +1,6 @@
 ---
 title: Name of the article
-template: Break-fix
+template: Concept
 id: 
 locale: en-us
 ---
