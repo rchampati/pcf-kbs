@@ -30,14 +30,37 @@ Follow the simple steps below to write a KB article in Github.
 10. Log into the [Agent Dashboard] using your OKTA credentials.
 
 ### Components
-PCF Components are divided as below:
-* appsmanager
-* bosh
-* buildpacks
-* cfcli
-* elastic runtime
-     * autoscale
-* infrastucture as a Service
+PCF Components are mentioned as below. Navigate to the repo as hyperlinked and start writing your article.
+* [appsmanager](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/appsmanager)
+* [bosh](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/bosh)
+* [buildpacks](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/buildpacks)
+* [cfcli](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/cfcli)
+* [elastic runtime](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert)
+     * [autoscale](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/autoscaler)
+     * [consul](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/consul)
+     * [diego](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/diego)
+     * [etcd](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/etcd)
+     * [loggregator](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/loggregator)
+     * [uaa](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/ert/uaa)
+* [infrastucture as a Service](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas)
+     * [aws](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/aws)
+     * [azure](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/azure)
+     * [gcp](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/gcp)
+     * [nsx](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/nsx)
+     * [openstack](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/openstack)
+     * [photon](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/photon)
+     * [vsphere](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/iaas/vsphere)
+* [metrics](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/metrics)
+* [mysql](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/mysql)
+* [opsmanager](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/opsmanager)
+* [services](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services)
+     * [apache-tomcat](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/apache-tomcat)
+     * [concourse](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/concourse)
+     * [pcc](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/pcc)
+     * [rabbitmq](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/rabbitmq)
+     * [redis](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/redis)
+     * [spring](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/services/spring)
+     
 
 
 
