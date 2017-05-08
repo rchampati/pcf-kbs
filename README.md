@@ -36,7 +36,7 @@ PCF Components are divided as below:
 * buildpacks
 * cfcli
 * elastic runtime
-+ autoscale
+     * autoscale
 * infrastucture as a Service
 
 
