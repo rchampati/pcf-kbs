@@ -1,9 +1,9 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: A guide to provide troubleshooting steps.*
-
-
-# Troubleshooting Guide Template (Add Product Name)
+---
+title: Name of the article
+template: troubleshooting-guide
+id: 
+locale: en-us
+---
 
 ## Environment 
 
