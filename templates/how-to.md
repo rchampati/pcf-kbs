@@ -1,8 +1,9 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: Choose this template when the article talks about performing a task i.e. "How to" do the task.*
-
-# How to Template (Add the Product name)
+---
+title: Name of the article
+template: How-to
+id: 
+locale: en-us
+---
 
 ## Environment
 
