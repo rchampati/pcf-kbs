@@ -29,6 +29,7 @@ Follow the simple steps below to write a KB article in Github.
 9. Submit a PR to the Knowledge Management Team. Send a message to GSS KM or ping in this Slack channel #gss-platform-kbs to let them know. The KM team will merge to the master and the KB will be updated in the knowledge base.
 10. Log into the [Agent Dashboard] using your OKTA credentials.
 
+
 ### Components
 PCF Components are mentioned as below. Navigate to the repo as hyperlinked and start writing your article.
 * [appsmanager](https://github.com/pivotal-gss/pcf-kbs/tree/master/component/appsmanager)
