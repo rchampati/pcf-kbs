@@ -4,7 +4,6 @@ template: Checklist
 id: 
 locale: en-us
 ---
-# Checklist for (name of the subject)
 
 ## Environment
 
