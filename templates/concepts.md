@@ -1,7 +1,9 @@
-*The text in italics serves as the instructions for each section of the article.*
-
-*Purpose of template: Concepts template applies to any article that is meant for explaining the workings and the theory of a product.*
-
+---
+title: Name of the article
+template: Break-fix
+id: 
+locale: en-us
+---
 # Concept Template
 
 ## Environment
