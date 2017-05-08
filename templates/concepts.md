@@ -1,6 +1,6 @@
 ---
 title: Name of the article
-template: Concept
+template: Concepts
 id: 
 locale: en-us
 ---
