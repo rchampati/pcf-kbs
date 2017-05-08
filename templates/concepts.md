@@ -4,7 +4,6 @@ template: Concept
 id: 
 locale: en-us
 ---
-# Concept Template
 
 ## Environment
 
