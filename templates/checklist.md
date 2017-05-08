@@ -1,7 +1,7 @@
 ---
 title: Name of the article
 template: Checklist
-id: 
+id: 115006785527 
 locale: en-us
 ---
 
