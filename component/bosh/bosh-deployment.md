@@ -5,7 +5,6 @@ id: 115006886227
 locale: en-us
 ---
 
-
 Srikanth Manvi [11:10 AM] 
 Can anyone let me know how to set `bosh deployment` to a service instance ? or where are the yml files related to service instances located ?
 ```ubuntu@pivotal-ops-manager:/var/tempest/workspaces/default/deployments$ bosh deployment service-instance_68c105a1-ef7f-4400-9c84-2c74d09fa50b
