@@ -1,7 +1,7 @@
 ---
 title: New Test
 template: Break-fix
-id:Ê
+id:
 locale: en-us
 ---
 
