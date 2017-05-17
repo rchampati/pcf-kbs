@@ -17,18 +17,7 @@ Read more in [Inside Pivotal KCS Page](https://sites.google.com/a/pivotal.io/ins
 
 Anyone at Pivotal can write a Knowledge Base article. If you have information that can help our customers troubleshoot by themselves and resolve their problems, help us capture it by writing a KB. 
 
-Follow the simple steps below to write a KB article in Github. 
-1. Search the Knowledge Base and Documentation to ensure what you want to write is not already there. 
-2. Check the Product Knowledge Base in detail. For example, take a look at Pivotal Cloud Foundry Knowledge Base if you are writing a PCF article.
-3. Navigate to the [KB repo in Github].
-4. Choose a template based on the document type.
-Copy the Template of your choice: [Break Fix](https://raw.githubusercontent.com/pivotal-gss/pcf-kbs/master/templates/break-fix.md)
-5. Under "components," choose the right folder based on the ERT product.
-6. Create a new ".md" file. You can use the template from step 4.
-7. Leave the "ID" blank.
-8. Fill out the article following the instructions in the template.
-9. Submit a PR to the Knowledge Management Team. Send a message to GSS KM or ping in this Slack channel #gss-platform-kbs to let them know. The KM team will merge to the master and the KB will be updated in the knowledge base.
-10. Log into the [Agent Dashboard] using your OKTA credentials.
+Find the steps to write a KB article [here](https://sites.google.com/a/pivotal.io/inside-pivotal/departments/pivotal-support/Knowledge-Centered-Support/process/github). 
 
 
 ### Components
