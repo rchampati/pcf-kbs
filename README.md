@@ -11,7 +11,7 @@ Your KB article should capture actionable steps to help them solve their problem
 
 Knowledge Centered Support (KCS) is a method where you solve the problem once and reuse the resolution multiple times.
 
-Read more in [Inside Pivotal KCS Page](http://https://sites.google.com/a/pivotal.io/inside-pivotal/departments/pivotal-support/Knowledge-Centered-Support/knowledge-management).
+Read more in [Inside Pivotal KCS Page](https://sites.google.com/a/pivotal.io/inside-pivotal/departments/pivotal-support/Knowledge-Centered-Support/process/github).
 
 ### Write a KB Article
 
