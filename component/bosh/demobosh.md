@@ -1,5 +1,5 @@
 ---
-title: Name of the article
+title: Bosh Open Source
 template: Concepts
 id:
 locale: en-us
@@ -35,4 +35,3 @@ Ordered list or Procedural Steps:
 2.	Numbered List
 3.	Numbered List
  
-
