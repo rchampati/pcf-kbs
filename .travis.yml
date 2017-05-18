@@ -3,9 +3,9 @@ language: python
 services:
 - docker
 before_install:
-- docker pull pivotalsupport/kb-docker:v3
+- docker pull pivotalsupport/kb-docker:v4
 script:
 - docker images
 - docker run -it -v $PWD:/pcf-kbs -e TRAVIS_BRANCH=$TRAVIS_BRANCH -e KB_TARGET_URL=$KB_TARGET_URL
-  -e KB_USER=$KB_USER -e KB_PASSWORD=$KB_PASSWORD -e encrypted_abfd839a279c_key=$encrypted_abfd839a279c_key -e encrypted_abfd839a279c_iv=$encrypted_abfd839a279c_iv pivotalsupport/kb-docker:v3 /bin/sh /kb-docker/script.sh
+  -e KB_USER=$KB_USER -e KB_PASSWORD=$KB_PASSWORD -e encrypted_abfd839a279c_key=$encrypted_abfd839a279c_key -e encrypted_abfd839a279c_iv=$encrypted_abfd839a279c_iv pivotalsupport/kb-docker:v4 /bin/sh /kb-docker/script.sh
 - docker ps -a
