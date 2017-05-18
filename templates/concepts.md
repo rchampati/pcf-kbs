@@ -1,7 +1,7 @@
 ---
 title: Name of the article
 template: Concepts
-id: 115007392947
+id:
 locale: en-us
 ---
 
