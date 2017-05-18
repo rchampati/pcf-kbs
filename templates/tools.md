@@ -1,7 +1,7 @@
 ---
 title: Name of the article
 template: Tools
-id: 115007557608
+id:
 locale: en-us
 ---
 
