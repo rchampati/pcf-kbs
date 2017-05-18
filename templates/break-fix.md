@@ -1,7 +1,7 @@
 ---
 title: Name of the article
 template: Break-fix
-id: 115007557568 
+id: 
 locale: en-us
 ---
 
