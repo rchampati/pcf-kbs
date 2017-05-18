@@ -1,7 +1,7 @@
 ---
 title: Name of the article
 template: How-to
-id: 115007392967
+id:
 locale: en-us
 ---
 
